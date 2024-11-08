@@ -2,6 +2,6 @@
 
 <template>
 
-  <p>Hi</p>
+  <p class="bg-red-300">Hi</p>
 
 </template>
