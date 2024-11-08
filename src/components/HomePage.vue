@@ -1,7 +1,11 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import HomeBanner from './Home/HomeBanner.vue';
+</script>
 
 <template>
 
-  <p class="bg-red-300">Hi</p>
+  <div>
 
+    <HomeBanner />
+  </div>
 </template>
