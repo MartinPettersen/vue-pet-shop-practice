@@ -50,7 +50,11 @@ import OrangeShoppingButton from '../(utils)/OrangeShoppingButton.vue';
         <div>
 
           <p class="font-bold text-lg">Become Our Bestie!</p>
-          <p>F Y I</p>
+          <div class="space-x-3">
+            <font-awesome-icon :icon="['fab', 'facebook-f']" />
+            <font-awesome-icon :icon="['fab', 'youtube']" />
+            <font-awesome-icon :icon="['fab', 'instagram']" />
+            </div>
         </div>
       </div>
     </div>

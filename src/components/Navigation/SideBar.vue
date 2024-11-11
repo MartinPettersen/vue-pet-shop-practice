@@ -1,13 +1,11 @@
 <script lang="ts" setup>
-import { MagnifyingGlassIcon } from '@heroicons/vue/24/solid'
-//import { MagnifyingGlassIcon } from '@heroicons/vue/24/solid'
-//import { MagnifyingGlassIcon } from '@heroicons/vue/24/solid'
+
 </script>
 
 <template>
-  <div class="flex flex-col fixed right-5">
-    <MagnifyingGlassIcon class="size-5" />
-    <MagnifyingGlassIcon class="size-5" />
-    <MagnifyingGlassIcon class="size-5" />
+  <div class="flex flex-col space-y-5 fixed right-5">
+    <font-awesome-icon class="h-[20px]" :icon="['fab', 'facebook-f']" />
+    <font-awesome-icon class="h-[20px]" :icon="['fab', 'youtube']" />
+    <font-awesome-icon class="h-[20px]" :icon="['fab', 'instagram']" />
   </div>
 </template>
