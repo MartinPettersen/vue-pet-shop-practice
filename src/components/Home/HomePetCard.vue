@@ -12,8 +12,16 @@ defineProps({
 </script>
 
 <template>
-<div :style="{ width: `${cardWidth}%` }" class="p-10 h-[350px] bg-gray-500">
-    <div class="space-y-2 w-[120px] flex flex-col justify-end h-full">
+  <div
+  :style="{
+      width: `${cardWidth}%`,
+      backgroundImage: `url(${imageUrl})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+    }"
+  :class="`relative w-[${cardWidth}%] p-10 h-[350px] bg-gray-500 overflow-hidden`">
+  <div class="absolute inset-0 bg-gray-800 opacity-40"></div>
+    <div class="relative space-y-2 w-[120px] flex flex-col justify-end h-full">
       <h1 :class="[{ 'border-b-2': underline }, 'text-3xl', 'font-bold']">{{ headline }}</h1>
       <p>{{ label }}</p>
       <OrangeShoppingButton label="Shop now" />
