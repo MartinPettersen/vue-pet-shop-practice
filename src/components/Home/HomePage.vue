@@ -1,6 +1,8 @@
 <script lang="ts" setup>
 import HomeBanner from './HomeBanner.vue';
 import HomeGrid from './HomeGrid.vue';
+import HomeFooter from './HomeFooter.vue';
+
 </script>
 
 <template>
@@ -9,5 +11,6 @@ import HomeGrid from './HomeGrid.vue';
 
     <HomeBanner />
     <HomeGrid />
+    <HomeFooter />
   </div>
 </template>

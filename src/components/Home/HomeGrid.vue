@@ -13,13 +13,15 @@ import HomePetCard from './HomePetCard.vue';
       <HomePetCard headline="Cats" label="I'm a title. ​Click here to edit me." imageUrl="" cardWidth="20" :underline="false"/>
     </div>
     <div class="flex space-x-4 w-[70%] mt-20 items-center justify-center">
-      <div class="w-[30%] h-[350px] bg-gray-500">Birds</div>
-      <div class="w-[70%] h-[350px] bg-gray-500">Fish</div>
+      <HomePetCard headline="Birds" label="I'm a title. ​Click here to edit me." imageUrl="" cardWidth="30" :underline="false"/>
+      <HomePetCard headline="Fish" label="I'm a title. ​Click here to edit me." imageUrl="" cardWidth="70" :underline="false"/>
+
     </div>
 
     <div class="flex space-x-4 w-[70%] mt-20 items-center justify-center">
-      <div class="w-[70%] h-[350px] bg-gray-500">Small Animals</div>
-      <div class="w-[30%] h-[350px] bg-gray-500">Reptiles</div>
+      <HomePetCard headline="Small Animals" label="I'm a title. ​Click here to edit me." imageUrl="" cardWidth="70" :underline="false"/>
+      <HomePetCard headline="Reptiles" label="I'm a title. ​Click here to edit me." imageUrl="" cardWidth="30" :underline="false"/>
+
     </div>
   </div>
 </template>
