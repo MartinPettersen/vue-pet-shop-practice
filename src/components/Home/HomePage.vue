@@ -2,6 +2,7 @@
 import HomeBanner from './HomeBanner.vue';
 import HomeGrid from './HomeGrid.vue';
 import HomeFooter from './HomeFooter.vue';
+import HomeBrandBar from './HomeBrandBar.vue';
 
 </script>
 
@@ -12,5 +13,6 @@ import HomeFooter from './HomeFooter.vue';
     <HomeBanner />
     <HomeGrid />
     <HomeFooter />
+    <HomeBrandBar />
   </div>
 </template>
