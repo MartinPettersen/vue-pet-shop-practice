@@ -12,7 +12,7 @@ defineProps({
 </script>
 
 <template>
-  <div :class="`w-[${cardWidth}%] p-10 h-[350px] bg-gray-500`">
+<div :style="{ width: `${cardWidth}%` }" class="p-10 h-[350px] bg-gray-500">
     <div class="space-y-2 w-[120px] flex flex-col justify-end h-full">
       <h1 :class="[{ 'border-b-2': underline }, 'text-3xl', 'font-bold']">{{ headline }}</h1>
       <p>{{ label }}</p>
