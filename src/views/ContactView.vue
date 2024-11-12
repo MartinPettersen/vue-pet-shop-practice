@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import OrangeFooter from '@/components/(utils)/OrangeFooter.vue';
-import HomePage from '@/components/Home/HomePage.vue';
+import ContactPage from '@/components/Contact/ContactPage.vue';
 
 </script>
 
 <template>
   <main>
-    <HomePage />
+    <ContactPage />
     <OrangeFooter />
   </main>
 </template>
