@@ -20,7 +20,7 @@ const toggleChat = () => {
       <ChatButton />
     </div>
     <div v-if="isChatting">
-      <ChatBox />
+      <ChatBox :toggleChat="toggleChat"/>
     </div>
   </div>
 </template>

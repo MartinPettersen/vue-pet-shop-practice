@@ -1,7 +1,13 @@
 <script lang="ts" setup>
 
 import { ref } from 'vue'
+// import type { Ref } from 'vue'
 import ChatForm from './ChatForm.vue';
+import { defineProps } from 'vue';
+
+const props = defineProps<{
+  toggleChat: () => void
+}>()
 
 const chatLog = ref<string[]>([])
 const currentTime = ref("")
@@ -25,7 +31,10 @@ const addMessage = () => {
 <template>
   <div class="flex flex-col items-center justify-start space-x-2 hover:cursor-pointer fixed right-10 bottom-0 w-80 h-[70%] bg-white border-2 border-black">
     <div class="w-full p-4 bg-[#FF5F42]">
-      <h1 class="font-bold text-xl">Besties</h1>
+      <div class="flex justify-between items-center">
+        <h1 class="font-bold text-xl">Besties</h1>
+        <font-awesome-icon :icon="['fas', 'xmark']" class="w-4 h-4" @click="props.toggleChat"/>
+      </div>
       <div class="flex items-center">
         <div class="w-2 h-2 rounded-full mr-2 bg-green-500"></div>
         <p>We'll reply as soon as we can</p>
