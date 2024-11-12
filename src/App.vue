@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
 import NavigationBar from './components/Navigation/NavigationBar.vue';
+import ChatBox from './components/(chat)/ChatContainer.vue';
+
 </script>
 
 <template>
@@ -8,6 +10,7 @@ import NavigationBar from './components/Navigation/NavigationBar.vue';
 
     <NavigationBar />
   </header>
+  <ChatBox />
 
   <RouterView />
 </template>
