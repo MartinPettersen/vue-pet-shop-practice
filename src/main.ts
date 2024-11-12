@@ -7,6 +7,15 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faCommentDots } from '@fortawesome/free-regular-svg-icons';
+import { faFaceSmile } from '@fortawesome/free-regular-svg-icons';
+import { faPaperclip } from '@fortawesome/free-solid-svg-icons';
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
+
+
+
+
+
 
 
 
@@ -16,6 +25,13 @@ import router from './router'
 library.add(faFacebookF);
 library.add(faYoutube);
 library.add(faInstagram);
+library.add(faCommentDots);
+library.add(faFaceSmile);
+library.add(faPaperclip);
+library.add(faPaperPlane);
+
+
+
 
 
 const app = createApp(App)
