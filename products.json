@@ -1,0 +1,146 @@
+{
+    "animals": [
+        {
+            "animal": "dogs",
+            "categories": [
+                {
+                    "dog beds": [
+                        {
+                            
+                        }
+                    ],
+                    "dog collars": [
+                        {
+                            
+                        }
+                    ],
+                    "dog food": [
+                        {
+                            
+                        }
+                    ],
+                    "dog toys": [
+                        {
+                            
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "animal": "Cats",
+            "categories": [
+                {
+                    "cat litter": [
+                        {
+                            
+                        }
+                    ],
+                    "cat pools": [
+                        {
+                            
+                        }
+                    ],
+                    "cat tools": [
+                        {
+                            
+                        }
+                    ],
+                    "cat toys": [
+                        {
+                            
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "animal": "birds",
+            "categories": [
+                {
+                    "bird houses": [
+                        {
+                            
+                        }
+                    ],
+                    "bird food": [
+                        {
+                            
+                        }
+                    ],
+                    "bird toys": [
+                        {
+                            
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "animal": "fish & aquatics",
+            "categories": [
+                {
+                    "fish aquariums": [
+                        {
+                            
+                        }
+                    ],
+                    "fish cleaning": [
+                        {
+                            
+                        }
+                    ],
+                    "fish decoration": [
+                        {
+                            
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "animal": "small animals",
+            "categories": [
+                {
+                    "small animal cages": [
+                        {
+                            
+                        }
+                    ],
+                    "small animal equipment": [
+                        {
+                            
+                        }
+                    ],
+                    "small animal toys": [
+                        {
+                            
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "animal": "reptiles",
+            "categories": [
+                {
+                    "reptile aquariums": [
+                        {
+                            
+                        }
+                    ],
+                    "reptile heating": [
+                        {
+                            
+                        }
+                    ],
+                    "reptile decoration": [
+                        {
+                            
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

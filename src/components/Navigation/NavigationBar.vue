@@ -11,14 +11,20 @@ import SideBar from './SideBar.vue'
   <SearchBar />
   <div class="flex justify-between p-4 mt-8">
     <nav class="text-xs font-bold space-x-6 pl-12">
-      <RouterLink to="/">SHOP ALL</RouterLink>
-      <RouterLink to="/dogs">DOGS</RouterLink>
-      <RouterLink to="/cats"></RouterLink>
-      <RouterLink to="/birds">BIRDS</RouterLink>
-      <RouterLink to="/fish">FISH & AQUATICS</RouterLink>
-      <RouterLink to="/smallanimals">SMALL ANIMALS</RouterLink>
-      <RouterLink to="/reptiles">REPTILES</RouterLink>
-      <RouterLink to="/contact">CONTACT</RouterLink>
+      <RouterLink class="hover:text-[#06808B]" to="/">SHOP ALL</RouterLink>
+      <RouterLink
+  class="hover:text-[#06808B]"
+  :to="{ path: '/products', query: { type: 'dogs', item: 'toy' } }"
+>
+  DOGS
+</RouterLink>
+
+      <RouterLink class="hover:text-[#06808B]" to="/cats">CATS</RouterLink>
+      <RouterLink class="hover:text-[#06808B]" to="/birds">BIRDS</RouterLink>
+      <RouterLink class="hover:text-[#06808B]" to="/fish">FISH & AQUATICS</RouterLink>
+      <RouterLink class="hover:text-[#06808B]" to="/smallanimals">SMALL ANIMALS</RouterLink>
+      <RouterLink class="hover:text-[#06808B]" to="/reptiles">REPTILES</RouterLink>
+      <RouterLink class="hover:text-[#06808B]" to="/contact">CONTACT</RouterLink>
     </nav>
     <div class="flex space-x-2 items-center justify-center">
       <RouterLink to="/">

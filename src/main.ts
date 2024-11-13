@@ -12,6 +12,8 @@ import { faFaceSmile } from '@fortawesome/free-regular-svg-icons';
 import { faPaperclip } from '@fortawesome/free-solid-svg-icons';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
+
 
 
 
@@ -26,6 +28,7 @@ library.add(faFaceSmile);
 library.add(faPaperclip);
 library.add(faPaperPlane);
 library.add(faXmark);
+library.add(faChevronRight);
 
 const app = createApp(App)
 

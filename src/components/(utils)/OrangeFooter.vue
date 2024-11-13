@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-import OrangeShoppingButton from '../(utils)/OrangeShoppingButton.vue';
 </script>
 
 <template>
@@ -57,10 +56,6 @@ import OrangeShoppingButton from '../(utils)/OrangeShoppingButton.vue';
             </div>
         </div>
       </div>
-    </div>
-    <div class="pt-20">
-
-      <OrangeShoppingButton label="Shop All" />
     </div>
   </div>
 </template>
