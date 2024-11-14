@@ -12,6 +12,7 @@ defineProps({
   productId: String,
 })
 
+
 const amount = ref(1)
 
 const subtracktOne = () => {
