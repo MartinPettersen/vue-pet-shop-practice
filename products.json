@@ -6,7 +6,21 @@
                 {
                     "dog beds": [
                         {
-                            
+                            "imageUrl": ,
+                            "price": ,
+                            "productName": ,
+                            "productId": ,
+                            "productDescription": ,
+                            "productInfo",
+                            "reviews": [
+                                {
+                                    "name": ,
+                                    "stars": ,
+                                    "date": ,
+                                    "review": ,
+                                }
+                            ]
+
                         }
                     ],
                     "dog collars": [

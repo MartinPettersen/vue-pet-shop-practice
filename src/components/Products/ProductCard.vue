@@ -10,6 +10,8 @@ defineProps({
   price: Number,
   productName: String,
   productId: String,
+  type: String,
+  item: String,
 })
 
 
@@ -25,7 +27,8 @@ const addOne = () => {
 
 <template>
   <div class="group flex flex-col space-y-4 items-center justify-center">
-    <div class=" w-[200px] h-[200px] overflow-hidden relative">
+    <RouterLink   :to="{ path: '/products/details', query: { type: type, item: item, id: productId} }"
+    class=" w-[200px] h-[200px] overflow-hidden relative"> 
       <div class="group-hover:bg-slate-300 flex items-end hover:bg-opacity-20 w-[200px] h-[200px]">
       <img class="h-[200px] w-[200px]" :src="imageUrl">
 
@@ -35,7 +38,7 @@ const addOne = () => {
           <p>Quick View</p>
         </div>
       </div>
-    </div>
+    </RouterLink>
     <p class="border-b-2">{{ productName }}</p>
     <p>${{ price?.toString() }}</p>
     <ProductStars :score="4.6" :reviewAmount="7"/>

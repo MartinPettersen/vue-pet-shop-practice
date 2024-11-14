@@ -37,7 +37,7 @@ const toggleSortMenu = () => {
         </div>
       </div>
       <div class="grid grid-cols-3 gap-10 pt-10">
-        <ProductCard productName="test" productId="2" :score="4" :price="40" imageUrl="https://static.wixstatic.com/media/84770f_3cf0de513f3e4c03a3be0896bb0c0f11~mv2.jpg/v1/fill/w_625,h_625,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_3cf0de513f3e4c03a3be0896bb0c0f11~mv2.jpg"/>
+        <ProductCard productName="test" :type="type" :item="item" productId="2" :score="4" :price="40" imageUrl="https://static.wixstatic.com/media/84770f_3cf0de513f3e4c03a3be0896bb0c0f11~mv2.jpg/v1/fill/w_625,h_625,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_3cf0de513f3e4c03a3be0896bb0c0f11~mv2.jpg"/>
         <ProductCard productName="test" productId="2" :score="4" :price="40" imageUrl="https://static.wixstatic.com/media/84770f_3cf0de513f3e4c03a3be0896bb0c0f11~mv2.jpg/v1/fill/w_625,h_625,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_3cf0de513f3e4c03a3be0896bb0c0f11~mv2.jpg"/>
         <ProductCard productName="test" productId="2" :score="4" :price="40" imageUrl="https://static.wixstatic.com/media/84770f_3cf0de513f3e4c03a3be0896bb0c0f11~mv2.jpg/v1/fill/w_625,h_625,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_3cf0de513f3e4c03a3be0896bb0c0f11~mv2.jpg"/>
         <ProductCard productName="test" productId="2" :score="4" :price="40" imageUrl="https://static.wixstatic.com/media/84770f_3cf0de513f3e4c03a3be0896bb0c0f11~mv2.jpg/v1/fill/w_625,h_625,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_3cf0de513f3e4c03a3be0896bb0c0f11~mv2.jpg"/>
