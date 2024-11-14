@@ -13,13 +13,17 @@ import { faPaperclip } from '@fortawesome/free-solid-svg-icons';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 
+import { faStar, faStarHalf } from '@fortawesome/free-solid-svg-icons';
 
 
 
 import App from './App.vue'
 import router from './router'
 
+library.add(faStarHalf);
+library.add(faStar);
 library.add(faFacebookF);
 library.add(faYoutube);
 library.add(faInstagram);
@@ -29,6 +33,8 @@ library.add(faPaperclip);
 library.add(faPaperPlane);
 library.add(faXmark);
 library.add(faChevronRight);
+library.add(faChevronDown);
+library.add(faChevronUp);
 
 const app = createApp(App)
 
