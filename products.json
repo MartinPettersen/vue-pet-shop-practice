@@ -6,7 +6,7 @@
                 {
                     "dog beds": [
                         {
-                            "imageUrl": "www.placeholder.com",
+                            "imageUrl": ["www.placeholder.com"],
                             "price": ,
                             "productName": ,
                             "productId": ,

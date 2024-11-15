@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import StarRow from '../../(utils)/StarRow.vue'
+import ReviewGrid from './ReviewGrid.vue';
 import ReviewLine from './ReviewLine.vue';
 </script>
 
@@ -22,6 +23,6 @@ import ReviewLine from './ReviewLine.vue';
         <ReviewLine label="1 stars" :amount="0" :total="14"/>
       </div>
     </div>
-    <div>reviews</div>
+    <ReviewGrid />
   </div>
 </template>

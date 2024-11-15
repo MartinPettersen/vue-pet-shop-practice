@@ -17,8 +17,11 @@ import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import { faPinterestP } from '@fortawesome/free-brands-svg-icons';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
-
+import { faCircle } from '@fortawesome/free-solid-svg-icons';
 import { faStar, faStarHalf } from '@fortawesome/free-solid-svg-icons';
+import { faThumbsUp } from '@fortawesome/free-regular-svg-icons';
+import { faMessage } from '@fortawesome/free-regular-svg-icons';
+
 
 
 
@@ -26,7 +29,10 @@ import App from './App.vue'
 import router from './router'
 
 library.add(faWhatsapp);
+library.add(faMessage);
+library.add(faThumbsUp);
 library.add(faTwitter);
+library.add(faCircle);
 library.add(faPinterestP);
 library.add(faStarHalf);
 library.add(faStar);
