@@ -30,7 +30,7 @@ const addOne = () => {
 
 <template>
   <div class="group flex flex-col space-y-4 items-center justify-center">
-    <RouterLink   :to="{ path: '/products/details', query: { type: type, item: item, id: productId} }"
+    <RouterLink   :to="{ path: '/products/details', query: { type: type, item: item, id: productId, product: JSON.stringify(product)} }"
     class=" w-[200px] h-[200px] overflow-hidden relative"> 
       <div class="group-hover:bg-slate-300 flex items-end hover:bg-opacity-20 w-[200px] h-[200px]">
       <img class="h-[200px] w-[200px]" :src="product.imageUrl[0]">

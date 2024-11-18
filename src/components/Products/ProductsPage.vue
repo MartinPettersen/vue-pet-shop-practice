@@ -17,7 +17,6 @@ const toggleSortMenu = () => {
 
 const products = ref([])
 
-console.log("productsData",productsData["animals"].find(animal => animal.animal === props.type))
 
 const animalProducts = productsData["animals"].find(animal => animal.animal === props.type)
 
@@ -27,18 +26,14 @@ if (animalProducts !== undefined && props.item !== undefined) {
 
     const temp = animalProducts.categories.find(category => "dog beds" in category)
 
-    console.log("animalProducts", temp[props.item])
 
     products.value = temp[props.item]
-    //console.log("animalProducts.categories", animalProducts.categories[0])
   } else {
 
 
     animalProducts.categories.forEach(category => {
       // For each category, log its products
       Object.keys(category).forEach(categoryName => {
-        console.log(`Category: ${categoryName}`);
-        console.log("Products:", category[categoryName]);
         products.value = category[categoryName]
       });
     });

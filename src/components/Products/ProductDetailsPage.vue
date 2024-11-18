@@ -4,6 +4,8 @@ import ProductStars from './ProductStars.vue'
 import DetailsCard from './(details)/DetailsCard.vue'
 import ProductReviews from './(details)/ProductReviews.vue';
 import ProductRecommandations from './(details)/ProductRecommandations.vue';
+import type { Product } from '@/types';
+import { useRoute } from 'vue-router';
 
 defineProps({
   type: String,
@@ -12,6 +14,10 @@ defineProps({
 })
 
 const amount = ref(1)
+const route = useRoute();
+//const productUnparsed = route.query.product as Product;
+const product = JSON.parse(route.query.product as string) as Product
+const averageStars = product.reviews.reduce((sum, review) => sum + review.stars, 0) / product.reviews.length;
 
 const subtracktOne = () => {
   amount.value = amount.value - 1
@@ -24,25 +30,25 @@ const addOne = () => {
 <template>
   <div class="flex flex-col items-center justify-center">
     <div class="w-[55%] py-10">
-      <h2 class="text-lg">Home/{{ type }}/{{ item }}/productname</h2>
+      <h2 class="text-lg">Home/{{ type }}/{{ item }}/{{product.productName}}</h2>
     </div>
     <div class="flex space-x-2 w-[90%] max-w-6xl">
       <div class="flex flex-col pl-14 w-[50%]">
         <img
           class="h-auto w-[90%]"
-          src="https://static.wixstatic.com/media/84770f_0c46e21cfe2d4e67bb44b3c4f6b007de~mv2.jpg/v1/fill/w_625,h_625,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_0c46e21cfe2d4e67bb44b3c4f6b007de~mv2.jpg"
+          :src="product.imageUrl"
         />
         <div>
-          <p>Product description</p>
+          <p>{{ product.productDescription }}</p>
         </div>
       </div>
       <div class="flex space-y-4 flex-col w-[50%] px-4">
-        <h1 class="text-[#FF5F42] font-bold text-2xl">ProductName</h1>
+        <h1 class="text-[#FF5F42] font-bold text-2xl">{{product.productName}}</h1>
         <div class="w-[40%]">
-          <ProductStars :score="4.6" :reviewAmount="7" />
+          <ProductStars :score="averageStars" :reviewAmount="product.reviews.length" />
         </div>
-        <p>SKU:{{ id }}</p>
-        <p class="font-bold text-lg">$123</p>
+        <p>SKU:{{ product.productId }}</p>
+        <p class="font-bold text-lg">${{ product.price }}</p>
         <div>
           <p>Quantity</p>
           <div class="flex border-2 w-[20%] border-black items-center justify-evenly">
@@ -66,7 +72,7 @@ const addOne = () => {
           </button>
         </div>
         <div class="w-[80%]">
-          <DetailsCard :show="true" label="PRODUCT INFO" info="Product Info text" />
+          <DetailsCard :show="true" label="PRODUCT INFO" :info="product.productInfo" />
           <div class="w-full border-b-2"></div>
           <DetailsCard
             :show="false"
@@ -88,7 +94,7 @@ const addOne = () => {
         </div>
       </div>
     </div>
-    <ProductReviews />
+    <ProductReviews :reviews="product.reviews" />
     <ProductRecommandations />
   </div>
 </template>

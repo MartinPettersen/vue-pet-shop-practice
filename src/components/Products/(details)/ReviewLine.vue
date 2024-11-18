@@ -9,8 +9,6 @@ const props = defineProps({
 
 const percentageConverter = computed(() => {
   const temp = props.total! / 100
-  console.log("temp", temp)
-  console.log("perce", props.amount! / temp)
 
   return props.amount! / temp
 })

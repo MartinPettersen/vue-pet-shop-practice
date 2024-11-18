@@ -9,7 +9,6 @@ const props = defineProps({
 const fullStars = computed(() => Math.floor(props.score!))
 const hasHalfStar = computed(() => props.score! % 1 >= 0.5)
 
-console.log('score', props.score)
 </script>
 
 <template>

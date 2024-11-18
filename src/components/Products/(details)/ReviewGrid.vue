@@ -1,18 +1,24 @@
 <script lang="ts" setup>
-import ReviewCard from './ReviewCard.vue';
-
+import ReviewCard from './ReviewCard.vue'
+import { defineProps, type PropType } from 'vue'
+import type { Review } from '@/types'
+defineProps({
+  reviews: Object as PropType<Review[]>,
+})
 </script>
 
 <template>
-
-  <div class="w-full  flex items-center justify-center">
+  <div class="w-full flex items-center justify-center">
     <div class="grid grid-cols-2 w-full gap-10 p-10">
-      <ReviewCard name="Jill Wynstein" date="01.02.2021" :score="4.6" headline="Great Product" review="Cured my pet's nightmares"/>
-      <ReviewCard name="Jill Wynstein" date="01.02.2021" :score="4.6" headline="Great Product" review="Cured my pet's nightmares"/>
-      <ReviewCard name="Jill Wynstein" date="01.02.2021" :score="4.6" headline="Great Product" review="Cured my pet's nightmares"/>
-      <ReviewCard name="Jill Wynstein" date="01.02.2021" :score="4.6" headline="Great Product" review="Cured my pet's nightmares"/>
-      <ReviewCard name="Jill Wynstein" date="01.02.2021" :score="4.6" headline="Great Product" review="Cured my pet's nightmares"/>
-      <ReviewCard name="Jill Wynstein" date="01.02.2021" :score="4.6" headline="Great Product" review="Cured my pet's nightmares"/>
+      <div v-for="(review, index) in reviews" :key="index">
+        <ReviewCard
+          :name="review.name"
+          :date="review.date"
+          :score="review.stars"
+          :headline="review.title"
+          :review="review.review"
+        />
+      </div>
     </div>
   </div>
 </template>
