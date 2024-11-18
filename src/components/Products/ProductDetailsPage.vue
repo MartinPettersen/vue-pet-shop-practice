@@ -3,6 +3,7 @@ import { defineProps, ref } from 'vue'
 import ProductStars from './ProductStars.vue'
 import DetailsCard from './(details)/DetailsCard.vue'
 import ProductReviews from './(details)/ProductReviews.vue';
+import ProductRecommandations from './(details)/ProductRecommandations.vue';
 
 defineProps({
   type: String,
@@ -88,6 +89,6 @@ const addOne = () => {
       </div>
     </div>
     <ProductReviews />
-
+    <ProductRecommandations />
   </div>
 </template>

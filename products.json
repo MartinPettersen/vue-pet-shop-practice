@@ -6,37 +6,358 @@
                 {
                     "dog beds": [
                         {
-                            "imageUrl": ["www.placeholder.com"],
-                            "price": ,
-                            "productName": ,
-                            "productId": ,
-                            "productDescription": ,
-                            "productInfo",
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_0c46e21cfe2d4e67bb44b3c4f6b007de~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_0c46e21cfe2d4e67bb44b3c4f6b007de~mv2.jpg"],
+                            "price": 49.99,
+                            "productName": "Cozy Canine Cushion",
+                            "productId": "DBC001",
+                            "productDescription": "A soft, plush bed for small to medium dogs, offering maximum comfort and style.",
+                            "productInfo": "Made with durable, machine-washable fabric and a memory foam base.",
                             "reviews": [
                                 {
-                                    "name": ,
-                                    "stars": ,
-                                    "date": ,
-                                    "title": ,
-                                    "review": ,
+                                    "name": "Emily P.",
+                                    "stars": 5,
+                                    "date": "2024-11-01",
+                                    "title": "My dog loves it!",
+                                    "review": "This bed is super soft, and my pug refuses to sleep anywhere else now."
+                                },
+                                {
+                                    "name": "John D.",
+                                    "stars": 4,
+                                    "date": "2024-10-21",
+                                    "title": "Great quality",
+                                    "review": "The fabric is durable, though my Labrador wishes it were bigger."
                                 }
                             ]
-
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_4f5401748e7843d28b3e08a6fa5bd1ed~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_4f5401748e7843d28b3e08a6fa5bd1ed~mv2.jpg"],
+                            "price": 89.99,
+                            "productName": "Orthopedic Pooch Paradise",
+                            "productId": "DBC002",
+                            "productDescription": "An orthopedic dog bed designed to relieve pressure and support aging joints.",
+                            "productInfo": "Features a water-resistant cover and therapeutic gel-infused memory foam.",
+                            "reviews": [
+                                {
+                                    "name": "Sophia K.",
+                                    "stars": 5,
+                                    "date": "2024-10-15",
+                                    "title": "Perfect for my senior dog",
+                                    "review": "This bed has made a world of difference for my Golden Retriever’s arthritis!"
+                                },
+                                {
+                                    "name": "Liam W.",
+                                    "stars": 3,
+                                    "date": "2024-10-10",
+                                    "title": "Not chew-proof",
+                                    "review": "While comfy, it couldn’t withstand my puppy’s teething phase."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_bd19c7a528154db8b48f25b45e60a184~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_bd19c7a528154db8b48f25b45e60a184~mv2.jpg"],
+                            "price": 29.99,
+                            "productName": "Travel Pup Mat",
+                            "productId": "DBC003",
+                            "productDescription": "A lightweight, portable dog mat, ideal for road trips or camping.",
+                            "productInfo": "Folds neatly for storage and comes with a waterproof bottom layer.",
+                            "reviews": [
+                                {
+                                    "name": "Isabella M.",
+                                    "stars": 4,
+                                    "date": "2024-09-30",
+                                    "title": "Convenient for trips",
+                                    "review": "Easy to carry and clean, though not as cushioned as a regular bed."
+                                },
+                                {
+                                    "name": "Oliver R.",
+                                    "stars": 5,
+                                    "date": "2024-09-20",
+                                    "title": "Perfect for camping",
+                                    "review": "My dog loved this during our camping trip—it stayed dry even on damp grass."
+                                }
+                            ]
                         }
                     ],
                     "dog collars": [
                         {
-                            
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_e60c34d157784955abd9dc87b3288bfe~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_e60c34d157784955abd9dc87b3288bfe~mv2.jpg"],
+                            "price": 14.99,
+                            "productName": "Classic Leather Collar",
+                            "productId": "DCL001",
+                            "productDescription": "A timeless leather collar, handcrafted for durability and elegance.",
+                            "productInfo": "Adjustable sizing, sturdy metal buckle, and available in multiple colors.",
+                            "reviews": [
+                                {
+                                    "name": "Ava L.",
+                                    "stars": 5,
+                                    "date": "2024-10-25",
+                                    "title": "Stylish and durable",
+                                    "review": "The leather is of excellent quality, and it fits my Beagle perfectly."
+                                },
+                                {
+                                    "name": "Mason T.",
+                                    "stars": 4,
+                                    "date": "2024-10-18",
+                                    "title": "Nice but runs large",
+                                    "review": "Great quality, though I had to punch an extra hole for my Terrier’s size."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_a1e8ffd8ba0046e7b82279e9f39b2375~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_a1e8ffd8ba0046e7b82279e9f39b2375~mv2.jpg"],
+                            "price": 19.99,
+                            "productName": "Reflective Nylon Collar",
+                            "productId": "DCL002",
+                            "productDescription": "A high-visibility collar for safety during evening walks.",
+                            "productInfo": "Made from durable nylon with reflective stitching and a quick-release buckle.",
+                            "reviews": [
+                                {
+                                    "name": "Lucas H.",
+                                    "stars": 5,
+                                    "date": "2024-10-11",
+                                    "title": "Safety first!",
+                                    "review": "This collar is perfect for walks after sunset—I can spot my dog from far away."
+                                },
+                                {
+                                    "name": "Emma R.",
+                                    "stars": 4,
+                                    "date": "2024-10-02",
+                                    "title": "Good value",
+                                    "review": "It’s lightweight and reflective, though I wish it had more padding."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_adf7c4e40efa4d50bc4809cba9f478db~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_adf7c4e40efa4d50bc4809cba9f478db~mv2.jpg"],
+                            "price": 24.99,
+                            "productName": "Personalized Engraved Collar",
+                            "productId": "DCL003",
+                            "productDescription": "A custom collar with your dog’s name and your contact information engraved on the buckle.",
+                            "productInfo": "Made with hypoallergenic materials and available in various sizes.",
+                            "reviews": [
+                                {
+                                    "name": "Charlotte P.",
+                                    "stars": 5,
+                                    "date": "2024-09-28",
+                                    "title": "Beautiful and practical",
+                                    "review": "The engraving is clear and elegant, and it adds an extra layer of safety."
+                                },
+                                {
+                                    "name": "Ethan J.",
+                                    "stars": 5,
+                                    "date": "2024-09-15",
+                                    "title": "A lifesaver",
+                                    "review": "My dog wandered off, but thanks to the engraved info, a kind stranger called me right away!"
+                                }
+                            ]
                         }
                     ],
                     "dog food": [
                         {
-                            
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_4ab40edd6b454dd694373a5eee3ef7e1~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_4ab40edd6b454dd694373a5eee3ef7e1~mv2.jpg"],
+                            "price": 29.99,
+                            "productName": "Gourmet Grain-Free Kibble",
+                            "productId": "DFD001",
+                            "productDescription": "A premium grain-free kibble made with real chicken and vegetables.",
+                            "productInfo": "Packed with protein, no artificial preservatives, suitable for adult dogs.",
+                            "reviews": [
+                                {
+                                    "name": "Sophia G.",
+                                    "stars": 5,
+                                    "date": "2024-10-22",
+                                    "title": "My dog’s favorite!",
+                                    "review": "Ever since switching, my Labrador’s coat is shinier and she’s more energetic."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_ea6088d895c44ae68fc1c040670c7dab~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_ea6088d895c44ae68fc1c040670c7dab~mv2.jpg"],
+                            "price": 39.99,
+                            "productName": "Hypoallergenic Salmon Recipe",
+                            "productId": "DFD002",
+                            "productDescription": "Formulated for dogs with food sensitivities, featuring salmon as the main ingredient.",
+                            "productInfo": "Omega-3 fatty acids for healthy skin, free from common allergens like wheat and soy.",
+                            "reviews": [
+                                {
+                                    "name": "Henry T.",
+                                    "stars": 4,
+                                    "date": "2024-10-10",
+                                    "title": "Good for sensitive stomachs",
+                                    "review": "This worked wonders for my dog’s digestion, though it’s a bit pricey."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_2b97c6a34796415dbf050d4026cdff33~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_2b97c6a34796415dbf050d4026cdff33~mv2.jpg"],
+                            "price": 19.99,
+                            "productName": "Budget-Friendly Beef Mix",
+                            "productId": "DFD003",
+                            "productDescription": "A cost-effective option without compromising quality, made with real beef.",
+                            "productInfo": "Balanced nutrients, fortified with vitamins and minerals, suitable for all breeds.",
+                            "reviews": [
+                                {
+                                    "name": "Emma W.",
+                                    "stars": 4,
+                                    "date": "2024-10-05",
+                                    "title": "Great value",
+                                    "review": "Good quality at a reasonable price. My dog enjoys it, and my wallet approves."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_43b152462bc742f092c15839b933b490~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_43b152462bc742f092c15839b933b490~mv2.jpg"],
+                            "price": 34.99,
+                            "productName": "Puppy Power Blend",
+                            "productId": "DFD004",
+                            "productDescription": "Specially formulated for growing puppies with DHA for brain development.",
+                            "productInfo": "Small kibble size, enriched with calcium for strong bones.",
+                            "reviews": [
+                                {
+                                    "name": "Oliver R.",
+                                    "stars": 5,
+                                    "date": "2024-09-30",
+                                    "title": "Perfect for my pup",
+                                    "review": "My Golden Retriever puppy has grown beautifully on this diet."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_fb6f2e40f8784512b9a06fe5fb7a959e~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_fb6f2e40f8784512b9a06fe5fb7a959e~mv2.jpg"],
+                            "price": 44.99,
+                            "productName": "Senior Dog Wellness",
+                            "productId": "DFD005",
+                            "productDescription": "A blend designed for senior dogs, with glucosamine and chondroitin for joint health.",
+                            "productInfo": "Low-fat formula, promotes healthy weight and mobility.",
+                            "reviews": [
+                                {
+                                    "name": "Liam D.",
+                                    "stars": 4,
+                                    "date": "2024-09-15",
+                                    "title": "Great for older dogs",
+                                    "review": "My senior Boxer seems more active since starting this food."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_ba4f8df71337480a8f1efceb81fba56c~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_ba4f8df71337480a8f1efceb81fba56c~mv2.jpg"],
+                            "price": 24.99,
+                            "productName": "Organic Free-Range Feast",
+                            "productId": "DFD006",
+                            "productDescription": "Certified organic dog food with free-range chicken and wholesome grains.",
+                            "productInfo": "No synthetic chemicals, supports sustainable farming.",
+                            "reviews": [
+                                {
+                                    "name": "Ella M.",
+                                    "stars": 5,
+                                    "date": "2024-09-05",
+                                    "title": "Ethical and delicious",
+                                    "review": "I love the organic ingredients, and my dog loves the taste!"
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_8116699192db4e689735dfd8a4d2c47c~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_8116699192db4e689735dfd8a4d2c47c~mv2.jpg"],
+                            "price": 32.99,
+                            "productName": "Freeze-Dried Raw Meal",
+                            "productId": "DFD007",
+                            "productDescription": "A raw diet in freeze-dried form for a nutritious and convenient meal.",
+                            "productInfo": "Retains natural flavors and nutrients, easy to rehydrate.",
+                            "reviews": [
+                                {
+                                    "name": "Mia H.",
+                                    "stars": 5,
+                                    "date": "2024-08-30",
+                                    "title": "My dog’s top pick",
+                                    "review": "I mix this with water, and my Poodle devours it every time."
+                                }
+                            ]
                         }
                     ],
                     "dog toys": [
                         {
-                            
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_fdfcbbaf39ef4bec8302ba850905b910~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_fdfcbbaf39ef4bec8302ba850905b910~mv2.jpg"],
+                            "price": 9.99,
+                            "productName": "Squeaky Plush Bone",
+                            "productId": "DTY001",
+                            "productDescription": "A soft plush toy in the shape of a bone with an irresistible squeaker inside.",
+                            "productInfo": "Made from durable yet gentle fabric, perfect for small to medium dogs.",
+                            "reviews": [
+                                {
+                                    "name": "Emily C.",
+                                    "stars": 5,
+                                    "date": "2024-10-25",
+                                    "title": "Squeaky fun!",
+                                    "review": "My Chihuahua is obsessed with this toy—it’s her new favorite!"
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_b6106567ef134c08833387cf3f32636c~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_b6106567ef134c08833387cf3f32636c~mv2.jpg"],
+                            "price": 14.99,
+                            "productName": "Interactive Treat Ball",
+                            "productId": "DTY002",
+                            "productDescription": "A rolling ball that dispenses treats as your dog plays.",
+                            "productInfo": "Encourages mental stimulation and exercise, made with non-toxic materials.",
+                            "reviews": [
+                                {
+                                    "name": "Henry P.",
+                                    "stars": 4,
+                                    "date": "2024-10-20",
+                                    "title": "Keeps them busy",
+                                    "review": "Great for keeping my energetic Border Collie entertained!"
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_93e10a5b8f154b1b993cfb0f4df193eb~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_93e10a5b8f154b1b993cfb0f4df193eb~mv2.jpg"],
+                            "price": 7.99,
+                            "productName": "Tug-of-War Rope Toy",
+                            "productId": "DTY003",
+                            "productDescription": "A sturdy rope toy designed for endless games of tug-of-war.",
+                            "productInfo": "Made from durable cotton fibers, helps clean teeth while playing.",
+                            "reviews": [
+                                {
+                                    "name": "Liam J.",
+                                    "stars": 5,
+                                    "date": "2024-10-15",
+                                    "title": "Perfect for tugging",
+                                    "review": "My German Shepherd loves tugging this rope—it’s held up surprisingly well!"
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_96e6038c26344850bd7d199c7a06d6fc~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_96e6038c26344850bd7d199c7a06d6fc~mv2.jpg"],
+                            "price": 12.99,
+                            "productName": "Chew-Proof Rubber Bone",
+                            "productId": "DTY004",
+                            "productDescription": "A tough rubber bone for aggressive chewers.",
+                            "productInfo": "Made from durable, chew-resistant rubber, suitable for medium to large dogs.",
+                            "reviews": [
+                                {
+                                    "name": "Sophia W.",
+                                    "stars": 5,
+                                    "date": "2024-10-05",
+                                    "title": "Indestructible!",
+                                    "review": "Finally, a toy my Boxer hasn’t destroyed in minutes!"
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_3cf0de513f3e4c03a3be0896bb0c0f11~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_3cf0de513f3e4c03a3be0896bb0c0f11~mv2.jpg"],
+                            "price": 19.99,
+                            "productName": "Fetch & Glow Ball",
+                            "productId": "DTY005",
+                            "productDescription": "A glow-in-the-dark ball perfect for nighttime fetch sessions.",
+                            "productInfo": "Soft yet durable, safe for teeth and gums, charges quickly under light.",
+                            "reviews": [
+                                {
+                                    "name": "Mason R.",
+                                    "stars": 5,
+                                    "date": "2024-09-30",
+                                    "title": "Nighttime fetch is a hit",
+                                    "review": "This ball is a game-changer for evening playtime—it glows so brightly!"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -48,22 +369,282 @@
                 {
                     "cat litter": [
                         {
-                            
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_665bb0d034864bbcab1197a0a8e638c0~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_665bb0d034864bbcab1197a0a8e638c0~mv2.jpg"],
+                            "price": 19.99,
+                            "productName": "Odor-Control Clumping Litter",
+                            "productId": "CLT001",
+                            "productDescription": "Premium clumping cat litter with advanced odor control for a fresher home.",
+                            "productInfo": "99% dust-free, made from natural clay, and forms tight clumps for easy scooping.",
+                            "reviews": [
+                                {
+                                    "name": "Olivia S.",
+                                    "stars": 5,
+                                    "date": "2024-10-18",
+                                    "title": "Best litter ever!",
+                                    "review": "The clumping action is fantastic, and my house smells so much better now."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_1896fb5cf2454163892d669dc5a03694~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_1896fb5cf2454163892d669dc5a03694~mv2.jpg"],
+                            "price": 24.99,
+                            "productName": "Eco-Friendly Walnut Litter",
+                            "productId": "CLT002",
+                            "productDescription": "A biodegradable litter made from crushed walnut shells, ideal for eco-conscious cat owners.",
+                            "productInfo": "Absorbs moisture quickly, lightweight, and naturally controls odors.",
+                            "reviews": [
+                                {
+                                    "name": "Ethan K.",
+                                    "stars": 4,
+                                    "date": "2024-10-12",
+                                    "title": "Great for the environment",
+                                    "review": "It works well, though it tracks a bit outside the box."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_31789e4869794cfca17d85f4c454e371~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_31789e4869794cfca17d85f4c454e371~mv2.jpg"],
+                            "price": 29.99,
+                            "productName": "Silica Crystal Litter",
+                            "productId": "CLT003",
+                            "productDescription": "Long-lasting silica litter that locks in moisture and eliminates odors.",
+                            "productInfo": "Non-clumping, ultra-absorbent crystals last up to a month per cat.",
+                            "reviews": [
+                                {
+                                    "name": "Sophia M.",
+                                    "stars": 5,
+                                    "date": "2024-10-05",
+                                    "title": "Minimal maintenance",
+                                    "review": "This litter is perfect—I only need to change it once a month, and no smell!"
+                                }
+                            ]
                         }
                     ],
-                    "cat pools": [
+                    "cat poles": [
                         {
-                            
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_134d41ca13984fd3bda23d4e229d0931~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_134d41ca13984fd3bda23d4e229d0931~mv2.jpg"],
+                            "price": 49.99,
+                            "productName": "Multi-Level Scratching Tree",
+                            "productId": "CPL001",
+                            "productDescription": "A luxurious multi-tiered cat tree with sisal-wrapped poles and cozy perches.",
+                            "productInfo": "Includes multiple platforms, a dangling toy, and a soft faux-fur finish.",
+                            "reviews": [
+                                {
+                                    "name": "Lily A.",
+                                    "stars": 5,
+                                    "date": "2024-10-20",
+                                    "title": "My cats love it!",
+                                    "review": "Both of my cats are obsessed—they fight over the top perch!"
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_a2f869e799a34f57821f219711e1e019~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_a2f869e799a34f57821f219711e1e019~mv2.jpg"],
+                            "price": 34.99,
+                            "productName": "Compact Scratching Post",
+                            "productId": "CPL002",
+                            "productDescription": "A sturdy, space-saving scratching post with a sisal surface for claw care.",
+                            "productInfo": "Perfect for small spaces, comes with a feather toy for added entertainment.",
+                            "reviews": [
+                                {
+                                    "name": "Jack W.",
+                                    "stars": 4,
+                                    "date": "2024-10-10",
+                                    "title": "Good for apartments",
+                                    "review": "Compact and effective—my Maine Coon uses it daily."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_f6f1ce60118e4db89f0617d90df75891~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_f6f1ce60118e4db89f0617d90df75891~mv2.jpg"],
+                            "price": 89.99,
+                            "productName": "Deluxe Cat Condo Tower",
+                            "productId": "CPL003",
+                            "productDescription": "A large cat tower featuring multiple hideouts, platforms, and a hanging hammock.",
+                            "productInfo": "Made from durable materials, includes sisal poles and plush-lined resting spots.",
+                            "reviews": [
+                                {
+                                    "name": "Emma P.",
+                                    "stars": 5,
+                                    "date": "2024-10-05",
+                                    "title": "Perfect for my kitten",
+                                    "review": "This tower has everything—my kitten is endlessly entertained."
+                                }
+                            ]
                         }
                     ],
                     "cat tools": [
                         {
-                            
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_b6106567ef134c08833387cf3f32636c~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_b6106567ef134c08833387cf3f32636c~mv2.jpg"],
+                            "price": 14.99,
+                            "productName": "Self-Cleaning Slicker Brush",
+                            "productId": "CTL001",
+                            "productDescription": "A self-cleaning brush designed to remove loose fur and prevent matting.",
+                            "productInfo": "Gentle on sensitive skin, ergonomic handle, and easy fur disposal with a button press.",
+                            "reviews": [
+                                {
+                                    "name": "Isabella R.",
+                                    "stars": 5,
+                                    "date": "2024-10-22",
+                                    "title": "No more shedding!",
+                                    "review": "My Persian cat loves this brush, and it keeps the fur off my furniture!"
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_19b9522349cc44508c6c10f73bd6bde9~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_19b9522349cc44508c6c10f73bd6bde9~mv2.jpg"],
+                            "price": 9.99,
+                            "productName": "Cat Nail Clippers",
+                            "productId": "CTL002",
+                            "productDescription": "Compact, easy-to-use nail clippers for safe and efficient grooming.",
+                            "productInfo": "Stainless steel blades, anti-slip grip, and safety guard to prevent overcutting.",
+                            "reviews": [
+                                {
+                                    "name": "Ethan L.",
+                                    "stars": 4,
+                                    "date": "2024-10-12",
+                                    "title": "Effective and safe",
+                                    "review": "Trims my cat’s nails easily without any fuss. A must-have tool!"
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_9d9b47eea58b4715b49e76095efb627b~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_9d9b47eea58b4715b49e76095efb627b~mv2.jpg"],
+                            "price": 19.99,
+                            "productName": "Fur De-shedding Glove",
+                            "productId": "CTL003",
+                            "productDescription": "A grooming glove that gently removes loose fur while giving your cat a soothing massage.",
+                            "productInfo": "One-size-fits-all, made from breathable material with silicone grooming tips.",
+                            "reviews": [
+                                {
+                                    "name": "Mia F.",
+                                    "stars": 5,
+                                    "date": "2024-10-08",
+                                    "title": "Makes grooming fun",
+                                    "review": "My shy cat loves this glove—it’s like petting and grooming at the same time!"
+                                }
+                            ]
                         }
                     ],
                     "cat toys": [
                         {
-                            
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_372a6644eccd4b61853ca63460c14932~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_372a6644eccd4b61853ca63460c14932~mv2.jpg"],
+                            "price": 8.99,
+                            "productName": "Feather Wand Toy",
+                            "productId": "CTY001",
+                            "productDescription": "An interactive wand with colorful feathers and bells for hours of fun.",
+                            "productInfo": "Great for engaging playtime, encourages exercise and hunting instincts.",
+                            "reviews": [
+                                {
+                                    "name": "Sophia T.",
+                                    "stars": 5,
+                                    "date": "2024-10-20",
+                                    "title": "Endless entertainment",
+                                    "review": "My cat leaps and bounds to catch the feathers—pure joy!"
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_9d85bc28b2a848d2811dcf889dcf69f9~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_9d85bc28b2a848d2811dcf889dcf69f9~mv2.jpg"],
+                            "price": 12.99,
+                            "productName": "Catnip-Filled Mouse",
+                            "productId": "CTY002",
+                            "productDescription": "A plush mouse toy stuffed with organic catnip for an irresistible playtime experience.",
+                            "productInfo": "Soft and safe, stimulates natural hunting behavior.",
+                            "reviews": [
+                                {
+                                    "name": "Liam B.",
+                                    "stars": 5,
+                                    "date": "2024-10-15",
+                                    "title": "Catnip heaven!",
+                                    "review": "My kitten goes wild for this mouse and carries it everywhere."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_d02a2cd36866486cab992c4960c8d1f9~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_d02a2cd36866486cab992c4960c8d1f9~mv2.jpg"],
+                            "price": 9.99,
+                            "productName": "Rolling Ball Track",
+                            "productId": "CTY003",
+                            "productDescription": "A multi-level ball track toy that keeps cats engaged with rolling balls.",
+                            "productInfo": "Durable plastic, non-slip base, and easy to assemble.",
+                            "reviews": [
+                                {
+                                    "name": "Ethan W.",
+                                    "stars": 4,
+                                    "date": "2024-10-10",
+                                    "title": "Great for solo play",
+                                    "review": "Keeps my cat busy, though I wish it came with extra balls."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_fdfcbbaf39ef4bec8302ba850905b910~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_fdfcbbaf39ef4bec8302ba850905b910~mv2.jpg"],
+                            "price": 7.99,
+                            "productName": "Crinkle Tunnel",
+                            "productId": "CTY004",
+                            "productDescription": "A collapsible tunnel that crackles as cats dart through it.",
+                            "productInfo": "Made from lightweight, durable material, folds flat for storage.",
+                            "reviews": [
+                                {
+                                    "name": "Ella M.",
+                                    "stars": 5,
+                                    "date": "2024-10-05",
+                                    "title": "A tunnel of fun",
+                                    "review": "My two cats chase each other through this all day long."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_fc2d6e1468cc42e4a9bfda3d8ccc5811~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_fc2d6e1468cc42e4a9bfda3d8ccc5811~mv2.jpg"],
+                            "price": 11.99,
+                            "productName": "Laser Pointer Toy",
+                            "productId": "CTY005",
+                            "productDescription": "A handheld laser pointer that creates endless fun for cats to chase.",
+                            "productInfo": "Compact design, easy to use, and comes with replaceable batteries.",
+                            "reviews": [
+                                {
+                                    "name": "Oliver R.",
+                                    "stars": 5,
+                                    "date": "2024-10-01",
+                                    "title": "Chasing galore!",
+                                    "review": "My cat never tires of this toy—it’s a workout for both of us!"
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_93e10a5b8f154b1b993cfb0f4df193eb~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_93e10a5b8f154b1b993cfb0f4df193eb~mv2.jpg"],
+                            "price": 14.99,
+                            "productName": "Interactive Puzzle Feeder",
+                            "productId": "CTY006",
+                            "productDescription": "A puzzle toy that dispenses treats as cats figure out the mechanisms.",
+                            "productInfo": "Great for mental stimulation, reduces boredom and stress.",
+                            "reviews": [
+                                {
+                                    "name": "Mia P.",
+                                    "stars": 4,
+                                    "date": "2024-09-30",
+                                    "title": "Challenging and fun",
+                                    "review": "My cat figured it out quickly but still loves playing with it!"
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_96e6038c26344850bd7d199c7a06d6fc~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_96e6038c26344850bd7d199c7a06d6fc~mv2.jpg"],
+                            "price": 19.99,
+                            "productName": "Robotic Mouse Toy",
+                            "productId": "CTY007",
+                            "productDescription": "A battery-powered mouse that moves unpredictably to mimic real prey.",
+                            "productInfo": "Encourages hunting instincts, rechargeable battery, and durable build.",
+                            "reviews": [
+                                {
+                                    "name": "Emma H.",
+                                    "stars": 5,
+                                    "date": "2024-09-25",
+                                    "title": "Realistic and exciting",
+                                    "review": "My cat stalks and pounces on this mouse like it’s real!"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -75,17 +656,263 @@
                 {
                     "bird houses": [
                         {
-                            
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_f4f04edf7b1d4dd1b866107954b1953d~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_f4f04edf7b1d4dd1b866107954b1953d~mv2.jpg"],
+                            "price": 24.99,
+                            "productName": "Rustic Wooden Birdhouse",
+                            "productId": "BHS001",
+                            "productDescription": "A handcrafted wooden birdhouse with a rustic charm and weather-resistant finish.",
+                            "productInfo": "Features a small perch and ventilation holes, perfect for small garden birds.",
+                            "reviews": [
+                                {
+                                    "name": "Anna K.",
+                                    "stars": 5,
+                                    "date": "2024-10-15",
+                                    "title": "Charming and sturdy",
+                                    "review": "The sparrows in my garden moved in right away—highly recommend!"
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_4d8fe7100eeb4a93b77075f3d0414f77~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_4d8fe7100eeb4a93b77075f3d0414f77~mv2.jpg"],
+                            "price": 34.99,
+                            "productName": "Colorful Ceramic Birdhouse",
+                            "productId": "BHS002",
+                            "productDescription": "A vibrant ceramic birdhouse that adds a pop of color to your outdoor space.",
+                            "productInfo": "Made from durable ceramic, easy to clean, and suitable for small birds.",
+                            "reviews": [
+                                {
+                                    "name": "Michael R.",
+                                    "stars": 4,
+                                    "date": "2024-10-10",
+                                    "title": "Beautiful addition",
+                                    "review": "Looks stunning in my yard, but a bit heavy to hang on thinner branches."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_b8ff72289f7a40e590cc28d6da4d4258~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_b8ff72289f7a40e590cc28d6da4d4258~mv2.jpg"],
+                            "price": 29.99,
+                            "productName": "Classic Garden Birdhouse",
+                            "productId": "BHS003",
+                            "productDescription": "A traditional birdhouse with a peaked roof and natural wood finish.",
+                            "productInfo": "Weatherproof design, easy to mount on poles or trees, and great for nesting birds.",
+                            "reviews": [
+                                {
+                                    "name": "Sophia J.",
+                                    "stars": 5,
+                                    "date": "2024-10-05",
+                                    "title": "Perfect for my backyard",
+                                    "review": "The bluebirds absolutely love it—it’s their favorite spot!"
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_d2069b8c0e15468491677c2f2638c856~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_d2069b8c0e15468491677c2f2638c856~mv2.jpg"],
+                            "price": 39.99,
+                            "productName": "Modern Cube Birdhouse",
+                            "productId": "BHS004",
+                            "productDescription": "A sleek, modern birdhouse with a geometric design and minimalist aesthetic.",
+                            "productInfo": "Made from eco-friendly materials, easy to clean, and blends well with modern decor.",
+                            "reviews": [
+                                {
+                                    "name": "Liam T.",
+                                    "stars": 4,
+                                    "date": "2024-09-30",
+                                    "title": "Stylish and functional",
+                                    "review": "Looks amazing on my patio, though the entry hole could be a bit larger."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_34a33d2a076943edbf77730e7730a4a2~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_34a33d2a076943edbf77730e7730a4a2~mv2.jpg"],
+                            "price": 49.99,
+                            "productName": "Deluxe Multi-Level Birdhouse",
+                            "productId": "BHS005",
+                            "productDescription": "A spacious, multi-level birdhouse designed for larger bird families.",
+                            "productInfo": "Includes multiple chambers, perches, and a weatherproof roof.",
+                            "reviews": [
+                                {
+                                    "name": "Emma S.",
+                                    "stars": 5,
+                                    "date": "2024-09-25",
+                                    "title": "Bird mansion!",
+                                    "review": "This birdhouse is a hit with my local finches—they’re always chattering away inside."
+                                }
+                            ]
                         }
                     ],
                     "bird food": [
                         {
-                            
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_c68d2e18147c449c9df5f7390e5f0929~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_c68d2e18147c449c9df5f7390e5f0929~mv2.jpg"],
+                            "price": 12.99,
+                            "productName": "Premium Wild Bird Seed Mix",
+                            "productId": "BFD001",
+                            "productDescription": "A high-quality seed mix with sunflower seeds, millet, and cracked corn, loved by a variety of wild birds.",
+                            "productInfo": "Rich in nutrients, ideal for attracting cardinals, sparrows, and finches.",
+                            "reviews": [
+                                {
+                                    "name": "Oliver H.",
+                                    "stars": 5,
+                                    "date": "2024-10-10",
+                                    "title": "A hit with the birds!",
+                                    "review": "The birds in my yard flock to this mix—it’s their favorite by far!"
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_2638557cfd4a4bb0b2e6938aa75a19bc~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_2638557cfd4a4bb0b2e6938aa75a19bc~mv2.jpg"],
+                            "price": 14.99,
+                            "productName": "Organic Seed Blend",
+                            "productId": "BFD002",
+                            "productDescription": "An organic seed blend with a variety of seeds, free from pesticides and artificial additives.",
+                            "productInfo": "Supports a healthy diet for songbirds, providing essential proteins and fats.",
+                            "reviews": [
+                                {
+                                    "name": "Eva G.",
+                                    "stars": 4,
+                                    "date": "2024-09-28",
+                                    "title": "Good for eco-conscious bird lovers",
+                                    "review": "I feel great knowing this is organic, but it’s a bit more expensive than regular mixes."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_1b8107894a2b4ece8e3969bae5d2d452~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_1b8107894a2b4ece8e3969bae5d2d452~mv2.jpg"],
+                            "price": 19.99,
+                            "productName": "Hummingbird Nectar Blend",
+                            "productId": "BFD003",
+                            "productDescription": "A special blend designed to attract and nourish hummingbirds with natural sugars and vitamins.",
+                            "productInfo": "Perfect for filling nectar feeders, promoting vibrant health for your local hummingbirds.",
+                            "reviews": [
+                                {
+                                    "name": "James B.",
+                                    "stars": 5,
+                                    "date": "2024-09-20",
+                                    "title": "Hummingbirds adore it!",
+                                    "review": "As soon as I put this out, the hummingbirds came in droves. It’s the best nectar blend I’ve found."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_5b480575aadd457b800e304bcf67b3e1~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_5b480575aadd457b800e304bcf67b3e1~mv2.jpg"],
+                            "price": 9.99,
+                            "productName": "Suet Cakes for Winter Birds",
+                            "productId": "BFD004",
+                            "productDescription": "High-energy suet cakes designed to attract woodpeckers, nuthatches, and other winter birds.",
+                            "productInfo": "Packed with peanuts, seeds, and rendered fat to keep birds fueled during the cold months.",
+                            "reviews": [
+                                {
+                                    "name": "Clara F.",
+                                    "stars": 5,
+                                    "date": "2024-09-18",
+                                    "title": "Perfect for cold weather",
+                                    "review": "I hang these suet cakes during the winter, and my backyard birds are always well-fed!"
+                                }
+                            ]
                         }
                     ],
                     "bird toys": [
                         {
-                            
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_8b764349e9c14e8f91683aaab06728fc~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_8b764349e9c14e8f91683aaab06728fc~mv2.jpg"],
+                            "price": 7.99,
+                            "productName": "Colorful Bell Hanging Toy",
+                            "productId": "BTT001",
+                            "productDescription": "A brightly colored bell attached to a rope, perfect for stimulating curiosity and encouraging play.",
+                            "productInfo": "Made with bird-safe materials and a gentle bell sound that won’t startle your feathered friends.",
+                            "reviews": [
+                                {
+                                    "name": "Charlotte W.",
+                                    "stars": 5,
+                                    "date": "2024-10-18",
+                                    "title": "Keeps my parakeets busy!",
+                                    "review": "They love ringing the bell—so much fun for them and delightful to watch!"
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_fc2d6e1468cc42e4a9bfda3d8ccc5811~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_fc2d6e1468cc42e4a9bfda3d8ccc5811~mv2.jpg"],
+                            "price": 9.99,
+                            "productName": "Wooden Chew Sticks",
+                            "productId": "BTT002",
+                            "productDescription": "Durable wooden chew sticks designed for parrots and smaller birds to gnaw and exercise their beaks.",
+                            "productInfo": "Natural, safe wood, ideal for maintaining healthy beaks and preventing boredom.",
+                            "reviews": [
+                                {
+                                    "name": "Oliver P.",
+                                    "stars": 4,
+                                    "date": "2024-10-10",
+                                    "title": "Great for my conures",
+                                    "review": "My conures love these sticks. They gnaw on them all day!"
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_ef83c2db6a6245cca052eef03e7a3507~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_ef83c2db6a6245cca052eef03e7a3507~mv2.jpg"],
+                            "price": 12.99,
+                            "productName": "Bird Swing with Ropes",
+                            "productId": "BTT003",
+                            "productDescription": "A fun, swinging toy with sturdy ropes and a comfortable perch for birds to relax or play on.",
+                            "productInfo": "Helps birds exercise and stretch their wings, with a design that’s easy to hang in any cage.",
+                            "reviews": [
+                                {
+                                    "name": "Jasmine R.",
+                                    "stars": 5,
+                                    "date": "2024-10-02",
+                                    "title": "My cockatiels love this!",
+                                    "review": "The swing is a favorite in our cage—perfect for both play and rest."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_8da729f4ad8b42388b18a9af9942b326~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_8da729f4ad8b42388b18a9af9942b326~mv2.jpg"],
+                            "price": 14.99,
+                            "productName": "Mirror Toy with Bells",
+                            "productId": "BTT004",
+                            "productDescription": "A mirror toy with colorful bells attached, providing both visual and auditory stimulation for your bird.",
+                            "productInfo": "Encourages self-recognition and curiosity, and helps reduce stress in solitary birds.",
+                            "reviews": [
+                                {
+                                    "name": "Eleanor M.",
+                                    "stars": 5,
+                                    "date": "2024-09-28",
+                                    "title": "A favorite for my parrot",
+                                    "review": "She loves looking into the mirror and playing with the bells. It’s a must-have!"
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_8e585659be4449debef8db693a2748f9~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_8e585659be4449debef8db693a2748f9~mv2.jpg"],
+                            "price": 10.99,
+                            "productName": "Toss & Roll Toy",
+                            "productId": "BTT005",
+                            "productDescription": "A rolling toy with a bell inside, ideal for encouraging birds to play and engage with their environment.",
+                            "productInfo": "Lightweight, durable, and made of bird-safe materials—perfect for solo or group play.",
+                            "reviews": [
+                                {
+                                    "name": "Liam J.",
+                                    "stars": 4,
+                                    "date": "2024-09-20",
+                                    "title": "Great for keeping them entertained",
+                                    "review": "My birds love rolling this toy around their cage—it’s a great way to keep them active."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_8e7f8299e9204d7ab6962a027ae8bd28~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_8e7f8299e9204d7ab6962a027ae8bd28~mv2.jpg"],
+                            "price": 19.99,
+                            "productName": "Hanging Coconut Toy",
+                            "productId": "BTT006",
+                            "productDescription": "A hanging coconut shell filled with bird-safe beads, ropes, and treats—perfect for foraging and pecking.",
+                            "productInfo": "Provides mental stimulation and satisfies natural foraging instincts while offering a fun activity.",
+                            "reviews": [
+                                {
+                                    "name": "Amelia F.",
+                                    "stars": 5,
+                                    "date": "2024-09-15",
+                                    "title": "Perfect for my budgies",
+                                    "review": "They love picking at the beads and swinging from the ropes. It’s the best toy for them!"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -97,17 +924,263 @@
                 {
                     "fish aquariums": [
                         {
-                            
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_e7024dd4b8df460888950dfa0ffa6ca9~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_e7024dd4b8df460888950dfa0ffa6ca9~mv2.jpg"],
+                            "price": 59.99,
+                            "productName": "Crystal Clear Glass Aquarium",
+                            "productId": "FA001",
+                            "productDescription": "A sleek, modern glass aquarium designed for clear, unobstructed viewing of your fish.",
+                            "productInfo": "Perfect for small to medium fish, with a built-in filtration system to keep the water pristine.",
+                            "reviews": [
+                                {
+                                    "name": "Benjamin T.",
+                                    "stars": 5,
+                                    "date": "2024-10-15",
+                                    "title": "Beautiful and easy to set up",
+                                    "review": "The aquarium looks stunning in my living room, and setting it up was a breeze."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_83e61b9888a6401e889b80f3ed2f322a~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_83e61b9888a6401e889b80f3ed2f322a~mv2.jpg"],
+                            "price": 89.99,
+                            "productName": "Compact Desktop Aquarium",
+                            "productId": "FA002",
+                            "productDescription": "A small, compact aquarium designed for desktop use or smaller spaces.",
+                            "productInfo": "Comes with LED lighting, perfect for adding a peaceful touch to your workspace.",
+                            "reviews": [
+                                {
+                                    "name": "Isabella L.",
+                                    "stars": 4,
+                                    "date": "2024-10-10",
+                                    "title": "Great for small spaces",
+                                    "review": "I love this little tank for my desk—it’s the perfect size and the LED lights are gorgeous."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_9fe3646eb6ad41dc84a76bfa9f77b269~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_9fe3646eb6ad41dc84a76bfa9f77b269~mv2.jpg"],
+                            "price": 129.99,
+                            "productName": "Deluxe Fish Tank Kit",
+                            "productId": "FA003",
+                            "productDescription": "A fully equipped fish tank kit complete with filtration system, heater, and LED lighting.",
+                            "productInfo": "Ideal for freshwater fish, this tank offers everything you need to start your aquatic journey.",
+                            "reviews": [
+                                {
+                                    "name": "Daniel W.",
+                                    "stars": 5,
+                                    "date": "2024-09-30",
+                                    "title": "Perfect setup for beginners",
+                                    "review": "This kit has everything I needed to get started—my fish are thriving!"
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_c0bb43f7c11b43049a64dc55c48b478c~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_c0bb43f7c11b43049a64dc55c48b478c~mv2.jpg"],
+                            "price": 199.99,
+                            "productName": "Elegant Curved Glass Aquarium",
+                            "productId": "FA004",
+                            "productDescription": "An elegant curved glass aquarium that provides a panoramic view of your fish’s underwater world.",
+                            "productInfo": "With an advanced filtration system and sleek design, this aquarium is perfect for larger fish or aquascaping.",
+                            "reviews": [
+                                {
+                                    "name": "Olivia H.",
+                                    "stars": 5,
+                                    "date": "2024-09-20",
+                                    "title": "Simply stunning!",
+                                    "review": "This aquarium adds such a serene atmosphere to my home—truly a work of art!"
+                                }
+                            ]
                         }
                     ],
                     "fish cleaning": [
                         {
-                            
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_d3468299622746eda77786365e3e4da7~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_d3468299622746eda77786365e3e4da7~mv2.jpg"],
+                            "price": 14.99,
+                            "productName": "Aquarium Gravel Cleaner",
+                            "productId": "FC001",
+                            "productDescription": "An easy-to-use gravel cleaner that efficiently removes debris and dirt from the bottom of your tank.",
+                            "productInfo": "Perfect for maintaining the cleanliness of both freshwater and saltwater aquariums.",
+                            "reviews": [
+                                {
+                                    "name": "Sophia M.",
+                                    "stars": 5,
+                                    "date": "2024-10-12",
+                                    "title": "Works like a charm",
+                                    "review": "This cleaner makes it so easy to keep the gravel clean without disturbing the fish."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_67f8e6e76d094298915571d53d1d5bfa~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_67f8e6e76d094298915571d53d1d5bfa~mv2.jpg"],
+                            "price": 9.99,
+                            "productName": "Magnetic Aquarium Cleaner",
+                            "productId": "FC002",
+                            "productDescription": "A magnetic cleaner that removes algae from the glass without getting your hands wet.",
+                            "productInfo": "Ideal for glass tanks, the two-piece magnetic design makes cleaning a breeze without scratching the surface.",
+                            "reviews": [
+                                {
+                                    "name": "Noah B.",
+                                    "stars": 4,
+                                    "date": "2024-09-30",
+                                    "title": "Great for glass tanks",
+                                    "review": "This cleaner is fantastic for my glass aquarium, though it can be a bit tricky with thick algae buildup."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_6706b542d2544f82b11f63ae804155a4~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_6706b542d2544f82b11f63ae804155a4~mv2.jpg"],
+                            "price": 19.99,
+                            "productName": "Submersible Aquarium Filter Cleaner",
+                            "productId": "FC003",
+                            "productDescription": "A submersible tool designed to clean filters and maintain water flow efficiency in your aquarium.",
+                            "productInfo": "Helps maintain the health of your tank by ensuring the filtration system is free from debris and buildup.",
+                            "reviews": [
+                                {
+                                    "name": "Lucas R.",
+                                    "stars": 5,
+                                    "date": "2024-09-20",
+                                    "title": "A must-have for aquarium care",
+                                    "review": "This tool makes cleaning the filter so easy, ensuring optimal water quality for my fish."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_61ab42ff4e4949b98111d0d068ee4611~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_61ab42ff4e4949b98111d0d068ee4611~mv2.jpg"],
+                            "price": 24.99,
+                            "productName": "Automatic Water Changer and Cleaner",
+                            "productId": "FC004",
+                            "productDescription": "An automatic water changer that allows you to clean your aquarium without draining or disturbing your fish.",
+                            "productInfo": "The device performs both water changes and cleaning simultaneously, ensuring your fish have a healthy, clean environment.",
+                            "reviews": [
+                                {
+                                    "name": "Ella K.",
+                                    "stars": 5,
+                                    "date": "2024-09-15",
+                                    "title": "Game changer for aquarium maintenance",
+                                    "review": "This has made water changes so much easier! My tank stays cleaner, and my fish are happier."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_636a6c89d7b64da78b9a8c963b50cf2c~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_636a6c89d7b64da78b9a8c963b50cf2c~mv2.jpg"],
+                            "price": 7.99,
+                            "productName": "Aquarium Cleaning Brush Set",
+                            "productId": "FC005",
+                            "productDescription": "A set of brushes designed for cleaning aquarium decorations, rocks, and equipment.",
+                            "productInfo": "Perfect for reaching tight spots, ensuring your entire tank setup stays clean without damaging any surfaces.",
+                            "reviews": [
+                                {
+                                    "name": "Amelia P.",
+                                    "stars": 5,
+                                    "date": "2024-09-10",
+                                    "title": "Essential for detail cleaning",
+                                    "review": "These brushes help clean every nook and cranny of my aquarium, keeping it in perfect condition!"
+                                }
+                            ]
                         }
                     ],
                     "fish decoration": [
                         {
-                            
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_dfef896e11664af490c984b58e82b237~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_dfef896e11664af490c984b58e82b237~mv2.jpg"],
+                            "price": 12.99,
+                            "productName": "Coral Reef Decoration",
+                            "productId": "FD001",
+                            "productDescription": "A vibrant, artificial coral reef to add a splash of color and texture to your aquarium.",
+                            "productInfo": "Made of non-toxic materials, this coral decoration enhances your aquarium’s aesthetics while providing hiding spots for your fish.",
+                            "reviews": [
+                                {
+                                    "name": "David S.",
+                                    "stars": 5,
+                                    "date": "2024-10-10",
+                                    "title": "A beautiful addition",
+                                    "review": "This coral piece adds such a vibrant pop of color to my aquarium, and the fish love swimming around it!"
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_dfef896e11664af490c984b58e82b237~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_dfef896e11664af490c984b58e82b237~mv2.jpg"],
+                            "price": 19.99,
+                            "productName": "Sunken Shipwreck Ornament",
+                            "productId": "FD002",
+                            "productDescription": "A detailed sunken shipwreck ornament to create a mysterious underwater scene.",
+                            "productInfo": "Made with safe materials, this shipwreck decoration provides fish with plenty of hiding spots and adds intrigue to your tank.",
+                            "reviews": [
+                                {
+                                    "name": "Emma R.",
+                                    "stars": 5,
+                                    "date": "2024-09-25",
+                                    "title": "Looks amazing in my tank",
+                                    "review": "This shipwreck is so realistic—it's like having a piece of the ocean in my aquarium!"
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_c42a4c975391425398b346d157c8fb78~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_c42a4c975391425398b346d157c8fb78~mv2.jpg"],
+                            "price": 9.99,
+                            "productName": "Driftwood Branch",
+                            "productId": "FD003",
+                            "productDescription": "A beautifully sculpted driftwood branch to enhance the natural look of your aquarium.",
+                            "productInfo": "This driftwood adds a rustic charm while providing surfaces for fish to rest and hide.",
+                            "reviews": [
+                                {
+                                    "name": "Liam G.",
+                                    "stars": 4,
+                                    "date": "2024-09-15",
+                                    "title": "Great for creating a natural look",
+                                    "review": "I love the natural aesthetic this driftwood brings, but it took a bit of time to sink!"
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_681f3f2dfa23446f9aa99090a1614153~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_681f3f2dfa23446f9aa99090a1614153~mv2.jpg"],
+                            "price": 15.99,
+                            "productName": "Rock Cave Hideaway",
+                            "productId": "FD004",
+                            "productDescription": "A realistic rock cave that offers a safe hideout for shy or territorial fish.",
+                            "productInfo": "Perfect for smaller fish to rest and find shelter, the rock cave is made from fish-safe, durable materials.",
+                            "reviews": [
+                                {
+                                    "name": "Ava H.",
+                                    "stars": 5,
+                                    "date": "2024-09-10",
+                                    "title": "My fish love it",
+                                    "review": "This cave is a favorite among my fish, especially my shy betta who spends most of the time inside!"
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_8890bbbb050d44599488b53b9ffab6d4~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_8890bbbb050d44599488b53b9ffab6d4~mv2.jpg"],
+                            "price": 24.99,
+                            "productName": "Floating Plant Decoration",
+                            "productId": "FD005",
+                            "productDescription": "A floating plant decoration that mimics real aquatic plants, perfect for adding greenery to your aquarium.",
+                            "productInfo": "The plants gently sway with the current, adding movement and a sense of life to your tank.",
+                            "reviews": [
+                                {
+                                    "name": "Charlotte J.",
+                                    "stars": 4,
+                                    "date": "2024-08-30",
+                                    "title": "Looks realistic and lovely",
+                                    "review": "This floating plant looks so lifelike and adds a soft, natural touch to my tank."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_b81953fe30884b5eb1e990b776009fe7~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_b81953fe30884b5eb1e990b776009fe7~mv2.jpg"],
+                            "price": 29.99,
+                            "productName": "Underwater Castle",
+                            "productId": "FD006",
+                            "productDescription": "An enchanting underwater castle, perfect for creating a magical aquatic environment.",
+                            "productInfo": "Made with non-toxic materials, this castle provides ample hiding spots for fish and adds a touch of fantasy to your tank.",
+                            "reviews": [
+                                {
+                                    "name": "Mason T.",
+                                    "stars": 5,
+                                    "date": "2024-08-15",
+                                    "title": "A whimsical touch",
+                                    "review": "This castle is so fun! My kids love looking at it, and my fish enjoy swimming around it."
+                                }
+                            ]
                         }
                     ]
                 }
@@ -119,17 +1192,246 @@
                 {
                     "small animal cages": [
                         {
-                            
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_1bda5519a52d451183d92afac5f64231~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_1bda5519a52d451183d92afac5f64231~mv2.jpg"],
+                            "price": 49.99,
+                            "productName": "Two-Level Rabbit Cage",
+                            "productId": "SAC001",
+                            "productDescription": "A spacious two-level cage designed for rabbits or other small animals, providing ample space for exercise and rest.",
+                            "productInfo": "Includes ramps, a large bottom tray for easy cleaning, and plenty of ventilation to keep your pet comfortable.",
+                            "reviews": [
+                                {
+                                    "name": "Sophia W.",
+                                    "stars": 5,
+                                    "date": "2024-10-05",
+                                    "title": "Perfect for my rabbit",
+                                    "review": "This cage has been great for my rabbit—plenty of room, easy to clean, and my bunny loves the extra level!"
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_ca02aa72132c4753911406a74f328552~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_ca02aa72132c4753911406a74f328552~mv2.jpg"],
+                            "price": 39.99,
+                            "productName": "Guinea Pig Mansion",
+                            "productId": "SAC002",
+                            "productDescription": "A large, multi-level guinea pig cage with a spacious living area and plenty of room for toys and food.",
+                            "productInfo": "Comes with a wire top for safety, and a removable tray for quick cleanup. Ideal for guinea pigs or similar small animals.",
+                            "reviews": [
+                                {
+                                    "name": "Liam J.",
+                                    "stars": 4,
+                                    "date": "2024-09-27",
+                                    "title": "Great cage, but a bit large",
+                                    "review": "My guinea pigs love this cage, but it's quite large—be sure you have enough space at home for it!"
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_23c0e160c6814f02a1a5c920c69383f4~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_23c0e160c6814f02a1a5c920c69383f4~mv2.jpg"],
+                            "price": 29.99,
+                            "productName": "Hamster Habitat Cage",
+                            "productId": "SAC003",
+                            "productDescription": "A compact, yet roomy cage for hamsters, with plenty of space for wheels, tunnels, and toys.",
+                            "productInfo": "The cage features a secure lid, an easy-to-clean bottom tray, and ample ventilation to keep your hamster happy.",
+                            "reviews": [
+                                {
+                                    "name": "Emily H.",
+                                    "stars": 5,
+                                    "date": "2024-09-18",
+                                    "title": "Perfect size for my hamster",
+                                    "review": "This cage is the perfect size for my hamster—she loves it, and it's super easy to clean!"
+                                }
+                            ]
                         }
                     ],
                     "small animal equipment": [
                         {
-                            
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_9d9b47eea58b4715b49e76095efb627b~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_9d9b47eea58b4715b49e76095efb627b~mv2.jpg"],
+                            "price": 14.99,
+                            "productName": "Hamster Exercise Wheel",
+                            "productId": "SAE001",
+                            "productDescription": "A silent running wheel for hamsters, designed to provide hours of fun and exercise.",
+                            "productInfo": "Made from durable plastic, this wheel features a smooth surface and runs quietly, perfect for nighttime use.",
+                            "reviews": [
+                                {
+                                    "name": "Lily M.",
+                                    "stars": 5,
+                                    "date": "2024-09-05",
+                                    "title": "My hamster loves it!",
+                                    "review": "This exercise wheel is perfect for my hamster. It's quiet and doesn't make a mess!"
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_04411378e44846f99fc66914fbb01f43~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_04411378e44846f99fc66914fbb01f43~mv2.jpg"],
+                            "price": 9.99,
+                            "productName": "Guinea Pig Hay Rack",
+                            "productId": "SAE002",
+                            "productDescription": "A convenient hay rack to keep your guinea pig’s hay fresh and off the cage floor.",
+                            "productInfo": "Made of sturdy metal, this rack is easy to mount on the side of the cage and provides easy access to hay.",
+                            "reviews": [
+                                {
+                                    "name": "Olivia C.",
+                                    "stars": 5,
+                                    "date": "2024-08-29",
+                                    "title": "Perfect for my guinea pig!",
+                                    "review": "My guinea pig loves this hay rack—it keeps the hay clean and makes feeding so much easier!"
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_6264810d5d5149f5843345861de980dc~mv2_d_1920_1920_s_2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_6264810d5d5149f5843345861de980dc~mv2_d_1920_1920_s_2.jpg"],
+                            "price": 19.99,
+                            "productName": "Small Animal Grooming Kit",
+                            "productId": "SAE003",
+                            "productDescription": "A complete grooming kit for small animals, including brushes, combs, and nail clippers.",
+                            "productInfo": "Helps keep your pet clean and healthy with safe and gentle tools designed specifically for small animals.",
+                            "reviews": [
+                                {
+                                    "name": "Mason B.",
+                                    "stars": 4,
+                                    "date": "2024-08-20",
+                                    "title": "Good grooming kit",
+                                    "review": "This kit has everything I need to groom my guinea pig, though the brush could be a little softer."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_eedc2c31e029450091aad6ab84caaaf0~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_eedc2c31e029450091aad6ab84caaaf0~mv2.jpg"],
+                            "price": 24.99,
+                            "productName": "Small Animal Playpen",
+                            "productId": "SAE004",
+                            "productDescription": "A portable playpen for small animals, offering a safe, enclosed area for your pets to exercise and explore.",
+                            "productInfo": "Made from lightweight, durable material, this playpen folds easily for storage and is perfect for outdoor use.",
+                            "reviews": [
+                                {
+                                    "name": "Charlotte L.",
+                                    "stars": 5,
+                                    "date": "2024-08-12",
+                                    "title": "Perfect for playtime!",
+                                    "review": "This playpen is a great way to let my guinea pigs roam safely outside. It's easy to set up and take down."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_31ad2062a4f441588b24ffb77f205939~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_31ad2062a4f441588b24ffb77f205939~mv2.jpg"],
+                            "price": 16.99,
+                            "productName": "Rabbit Chew Toys",
+                            "productId": "SAE005",
+                            "productDescription": "A set of chew toys for rabbits to help maintain their dental health and prevent boredom.",
+                            "productInfo": "Made from safe, natural materials, these toys are perfect for keeping your rabbit entertained while promoting dental care.",
+                            "reviews": [
+                                {
+                                    "name": "Ethan D.",
+                                    "stars": 5,
+                                    "date": "2024-07-25",
+                                    "title": "My rabbit loves these",
+                                    "review": "These chew toys keep my rabbit entertained and help with his teeth. They're a great addition to his cage."
+                                }
+                            ]
                         }
                     ],
                     "small animal toys": [
                         {
-                            
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_96e6038c26344850bd7d199c7a06d6fc~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_96e6038c26344850bd7d199c7a06d6fc~mv2.jpg"],
+                            "price": 8.99,
+                            "productName": "Wooden Chew Sticks",
+                            "productId": "SAT001",
+                            "productDescription": "A pack of natural wooden chew sticks, perfect for satisfying your small animal’s instinct to gnaw.",
+                            "productInfo": "Made from safe, untreated wood, these chew sticks promote healthy teeth and keep your pet entertained.",
+                            "reviews": [
+                                {
+                                    "name": "Grace F.",
+                                    "stars": 5,
+                                    "date": "2024-09-14",
+                                    "title": "A must-have for rabbits",
+                                    "review": "My rabbit loves chewing on these! They're the perfect way to keep his teeth healthy and his boredom at bay."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_ec11f98deef04d1c8c24869f77d76b8e~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_ec11f98deef04d1c8c24869f77d76b8e~mv2.jpg"],
+                            "price": 12.49,
+                            "productName": "Interactive Hamster Ball",
+                            "productId": "SAT002",
+                            "productDescription": "An interactive hamster ball that allows your pet to safely explore the surroundings while rolling around.",
+                            "productInfo": "The ball features air holes for ventilation and a secure lid, ensuring your hamster stays comfortable during playtime.",
+                            "reviews": [
+                                {
+                                    "name": "Noah P.",
+                                    "stars": 5,
+                                    "date": "2024-08-28",
+                                    "title": "So much fun!",
+                                    "review": "My hamster absolutely loves this ball. It gives him hours of entertainment, and I love watching him zoom around the house."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_50c46837e79248f9ac5da73a07b81ccc~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_50c46837e79248f9ac5da73a07b81ccc~mv2.jpg"],
+                            "price": 6.99,
+                            "productName": "Tunnels for Small Pets",
+                            "productId": "SAT003",
+                            "productDescription": "A set of colorful tunnels that small animals can crawl through, promoting physical activity and mental stimulation.",
+                            "productInfo": "Made from safe, durable materials, these tunnels provide hours of fun and help encourage your pet’s natural burrowing behavior.",
+                            "reviews": [
+                                {
+                                    "name": "Lucas G.",
+                                    "stars": 4,
+                                    "date": "2024-08-19",
+                                    "title": "Great for my guinea pigs",
+                                    "review": "My guinea pigs love these tunnels! They're perfect for exploring, though they do tend to get a bit messy after a while."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_61b2aee148d44039943b5d3ab983e62d~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_61b2aee148d44039943b5d3ab983e62d~mv2.jpg"],
+                            "price": 9.99,
+                            "productName": "Small Animal Puzzle Feeder",
+                            "productId": "SAT004",
+                            "productDescription": "A puzzle feeder that makes mealtime more exciting and mentally stimulating for small animals.",
+                            "productInfo": "This interactive toy dispenses treats as your pet solves the puzzle, making feeding time more engaging and rewarding.",
+                            "reviews": [
+                                {
+                                    "name": "Maya T.",
+                                    "stars": 5,
+                                    "date": "2024-08-05",
+                                    "title": "Great mental stimulation",
+                                    "review": "My rabbit loves this puzzle feeder. It keeps him entertained and gives him a challenge during meals."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_be9d2902b3fd487ea51a1152f40492c5~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_be9d2902b3fd487ea51a1152f40492c5~mv2.jpg"],
+                            "price": 7.99,
+                            "productName": "Rabbit Jute Ball",
+                            "productId": "SAT005",
+                            "productDescription": "A natural jute ball designed for rabbits and guinea pigs to toss, chew, and chase.",
+                            "productInfo": "Made from eco-friendly jute, this ball is soft yet durable, providing hours of safe play for your pets.",
+                            "reviews": [
+                                {
+                                    "name": "Zoe B.",
+                                    "stars": 5,
+                                    "date": "2024-07-30",
+                                    "title": "Perfect for chewing and playing",
+                                    "review": "This ball is a great addition to my rabbit’s playtime. He loves tossing it around, and it’s safe for him to chew."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_99346cb6b536426fb587d5fb0c50538e~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_99346cb6b536426fb587d5fb0c50538e~mv2.jpg"],
+                            "price": 10.49,
+                            "productName": "Hanging Treat Holder Toy",
+                            "productId": "SAT006",
+                            "productDescription": "A hanging toy that dispenses treats as your small pet interacts with it, keeping them active and entertained.",
+                            "productInfo": "Ideal for guinea pigs and rabbits, this toy encourages exercise and provides a tasty reward.",
+                            "reviews": [
+                                {
+                                    "name": "Ella S.",
+                                    "stars": 4,
+                                    "date": "2024-07-15",
+                                    "title": "Keeps them active",
+                                    "review": "This treat holder keeps my guinea pigs engaged for hours. It’s a bit tricky at first, but they got the hang of it!"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -141,17 +1443,263 @@
                 {
                     "reptile aquariums": [
                         {
-                            
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_29afe404b23b4f158971a32ed6b4d91a~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_29afe404b23b4f158971a32ed6b4d91a~mv2.jpg"],
+                            "price": 89.99,
+                            "productName": "Glass Terrarium for Lizards",
+                            "productId": "RA001",
+                            "productDescription": "A spacious glass terrarium designed for lizards, with plenty of space to climb, hide, and bask.",
+                            "productInfo": "Features a sliding glass door for easy access, a secure lid for ventilation, and a built-in water reservoir for humidity control.",
+                            "reviews": [
+                                {
+                                    "name": "Jordan F.",
+                                    "stars": 5,
+                                    "date": "2024-09-10",
+                                    "title": "Perfect for my bearded dragon",
+                                    "review": "This terrarium is the ideal size for my bearded dragon. It’s easy to clean and maintain, and my dragon loves the extra space."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_866f3363fd6d41459c470d8bc41d9976~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_866f3363fd6d41459c470d8bc41d9976~mv2.jpg"],
+                            "price": 119.99,
+                            "productName": "Reptile Habitat Tank",
+                            "productId": "RA002",
+                            "productDescription": "A large, all-in-one reptile habitat tank suitable for various reptiles, including geckos and snakes.",
+                            "productInfo": "This aquarium features a sleek, modern design with a built-in UVB lighting system, a heat source, and ample space for climbing or hiding.",
+                            "reviews": [
+                                {
+                                    "name": "Isabella K.",
+                                    "stars": 4,
+                                    "date": "2024-08-25",
+                                    "title": "Great for snakes!",
+                                    "review": "This tank is spacious and includes all the essentials for my snake. The only downside is the lid could be a bit sturdier."
+                                }
+                            ]
                         }
                     ],
                     "reptile heating": [
                         {
-                            
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_48c000041e264c1ca65ad07ffd23ee3d~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_48c000041e264c1ca65ad07ffd23ee3d~mv2.jpg"],
+                            "price": 24.99,
+                            "productName": "Under Tank Heat Mat",
+                            "productId": "RH001",
+                            "productDescription": "An under-tank heat mat designed to provide consistent warmth for your reptile’s habitat.",
+                            "productInfo": "The heat mat is easy to install under the tank and provides a gentle heat source to simulate the warmth of the earth. Ideal for reptiles like snakes and lizards.",
+                            "reviews": [
+                                {
+                                    "name": "Aaron M.",
+                                    "stars": 5,
+                                    "date": "2024-09-05",
+                                    "title": "Perfect for my snake tank",
+                                    "review": "This heat mat works wonders for my snake tank! It provides even warmth and keeps the tank comfortable."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_30a7a7ca535c4d269fe2cc96801e8a19~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_30a7a7ca535c4d269fe2cc96801e8a19~mv2.jpg"],
+                            "price": 39.99,
+                            "productName": "Ceramic Heat Emitter",
+                            "productId": "RH002",
+                            "productDescription": "A ceramic heat emitter that produces radiant heat without light, perfect for nocturnal reptiles.",
+                            "productInfo": "The ceramic design ensures long-lasting durability and provides a consistent heat source without disturbing your pet’s day/night cycle.",
+                            "reviews": [
+                                {
+                                    "name": "Sophie R.",
+                                    "stars": 4,
+                                    "date": "2024-08-22",
+                                    "title": "Great for nighttime heating",
+                                    "review": "This ceramic heater is perfect for my gecko. It heats the tank well without disturbing its sleep with bright light."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_0e5db8e5c9564015919a8b72c2534457~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_0e5db8e5c9564015919a8b72c2534457~mv2.jpg"],
+                            "price": 19.99,
+                            "productName": "Reptile Heat Lamp",
+                            "productId": "RH003",
+                            "productDescription": "A reptile heat lamp designed to provide direct, focused warmth for your pet’s basking area.",
+                            "productInfo": "This lamp offers a reliable heat source, mimicking sunlight, and is ideal for reptiles that need a basking spot to regulate their body temperature.",
+                            "reviews": [
+                                {
+                                    "name": "Liam H.",
+                                    "stars": 5,
+                                    "date": "2024-07-15",
+                                    "title": "Perfect basking lamp",
+                                    "review": "This heat lamp is perfect for my bearded dragon's basking spot. It heats up quickly and provides just the right amount of warmth."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_9df79d16f24c459cbdfa334e23653f5d~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_9df79d16f24c459cbdfa334e23653f5d~mv2.jpg"],
+                            "price": 29.99,
+                            "productName": "Reptile Heating Pad",
+                            "productId": "RH004",
+                            "productDescription": "A versatile heating pad for reptiles, designed to provide controlled warmth to your pet’s tank.",
+                            "productInfo": "The heating pad can be placed under the tank or inside, and it provides gentle, even warmth perfect for reptiles that need a controlled heat source.",
+                            "reviews": [
+                                {
+                                    "name": "Emily W.",
+                                    "stars": 5,
+                                    "date": "2024-06-30",
+                                    "title": "Excellent for my terrarium",
+                                    "review": "I use this heating pad in my terrarium, and it works perfectly! My reptiles love it, and the temperature stays consistent."
+                                }
+                            ]
                         }
                     ],
                     "reptile decoration": [
                         {
-                            
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_a0c8c48808c44c03b971309b0e2590fa~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_a0c8c48808c44c03b971309b0e2590fa~mv2.jpg"],
+                            "price": 14.99,
+                            "productName": "Cave Hideout",
+                            "productId": "RD001",
+                            "productDescription": "A realistic cave hideout perfect for reptiles to feel secure and hidden.",
+                            "productInfo": "Made from natural stone, this hideout is durable and perfect for providing your pet with a private retreat.",
+                            "reviews": [
+                                {
+                                    "name": "Emma B.",
+                                    "stars": 5,
+                                    "date": "2024-09-12",
+                                    "title": "Great hideout!",
+                                    "review": "This cave hideout is perfect for my bearded dragon. He loves hiding inside, and it blends in beautifully with the tank decor."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_653d6892e2314bcca6099c09f9d9c898~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_653d6892e2314bcca6099c09f9d9c898~mv2.jpg"],
+                            "price": 18.99,
+                            "productName": "Driftwood Decoration",
+                            "productId": "RD002",
+                            "productDescription": "A natural driftwood piece that adds texture and climbing opportunities to your reptile’s habitat.",
+                            "productInfo": "This driftwood is ideal for reptiles that like to climb and bask. It also enhances the aesthetic appeal of your terrarium.",
+                            "reviews": [
+                                {
+                                    "name": "Oliver L.",
+                                    "stars": 5,
+                                    "date": "2024-08-22",
+                                    "title": "Adds great texture",
+                                    "review": "This driftwood is a fantastic addition to my gecko's tank. He loves climbing on it, and it looks so natural."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_7f7eaf9c100b441fa4cf35dcf1d97481~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_7f7eaf9c100b441fa4cf35dcf1d97481~mv2.jpg"],
+                            "price": 23.99,
+                            "productName": "Rock Basking Platform",
+                            "productId": "RD003",
+                            "productDescription": "A flat rock platform perfect for reptiles to bask and regulate their body temperature.",
+                            "productInfo": "This realistic rock platform helps create a natural basking spot for your reptile, ideal for soaking up warmth under a heat lamp.",
+                            "reviews": [
+                                {
+                                    "name": "Charlotte J.",
+                                    "stars": 4,
+                                    "date": "2024-08-15",
+                                    "title": "Perfect basking spot",
+                                    "review": "This rock platform is perfect for my iguana to bask on. It’s sturdy, and he loves lounging there. The only thing is it can get a bit slippery."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_bbf811b19c9347a1849ee4dd2eeeb9dd~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_bbf811b19c9347a1849ee4dd2eeeb9dd~mv2.jpg"],
+                            "price": 12.49,
+                            "productName": "Plastic Vines",
+                            "productId": "RD004",
+                            "productDescription": "Plastic vines that can be wrapped around your terrarium to add height and hiding spaces for reptiles.",
+                            "productInfo": "These vines are flexible and easy to arrange. They offer an ideal climbing structure for arboreal reptiles.",
+                            "reviews": [
+                                {
+                                    "name": "Sophia K.",
+                                    "stars": 5,
+                                    "date": "2024-07-30",
+                                    "title": "My lizard loves these!",
+                                    "review": "These vines are perfect for my chameleon. He loves climbing on them, and they add a beautiful touch to the tank."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_dfef896e11664af490c984b58e82b237~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_dfef896e11664af490c984b58e82b237~mv2.jpg"],
+                            "price": 15.99,
+                            "productName": "Reptile Waterfall",
+                            "productId": "RD005",
+                            "productDescription": "A mini waterfall decoration that provides both beauty and a source of fresh water for your reptile.",
+                            "productInfo": "This soothing waterfall not only enhances the aesthetic appeal of the habitat but also provides a gentle water flow for hydration.",
+                            "reviews": [
+                                {
+                                    "name": "James H.",
+                                    "stars": 4,
+                                    "date": "2024-07-10",
+                                    "title": "Great feature, but noisy",
+                                    "review": "This waterfall is a great addition to the tank, but it’s a bit louder than I expected. Still, my reptiles love it!"
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_681f3f2dfa23446f9aa99090a1614153~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_681f3f2dfa23446f9aa99090a1614153~mv2.jpg"],
+                            "price": 9.99,
+                            "productName": "Natural Stone Pile",
+                            "productId": "RD006",
+                            "productDescription": "A pile of natural-looking stones that can be arranged to create climbing structures or hiding spots for your reptile.",
+                            "productInfo": "These stones add a rugged, natural look to your terrarium and give reptiles the opportunity to climb and explore.",
+                            "reviews": [
+                                {
+                                    "name": "Amelia N.",
+                                    "stars": 5,
+                                    "date": "2024-06-28",
+                                    "title": "Perfect for climbing",
+                                    "review": "My bearded dragon loves climbing these stones. They fit perfectly in the corner of the tank and help create a natural environment."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_af1045d5f5504f07af8aab26a10c08fa~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_af1045d5f5504f07af8aab26a10c08fa~mv2.jpg"],
+                            "price": 10.49,
+                            "productName": "Reptile Bamboo Hide",
+                            "productId": "RD007",
+                            "productDescription": "A bamboo hide that offers a cozy space for reptiles to retreat and feel secure.",
+                            "productInfo": "Made from natural bamboo, this hide provides a cool, shady spot for your reptile to escape the heat and feel safe.",
+                            "reviews": [
+                                {
+                                    "name": "David T.",
+                                    "stars": 4,
+                                    "date": "2024-06-15",
+                                    "title": "Great for shy reptiles",
+                                    "review": "This bamboo hide is perfect for my shy leopard gecko. It’s the perfect size and keeps him cool and hidden."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_68d1fcdef5c44fbcb1671a094b4d3285~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_68d1fcdef5c44fbcb1671a094b4d3285~mv2.jpg"],
+                            "price": 8.99,
+                            "productName": "Reptile Log Hide",
+                            "productId": "RD008",
+                            "productDescription": "A realistic log hideout that provides reptiles with a secure, hidden space.",
+                            "productInfo": "This log hideout is made of durable resin and blends well with the natural look of your terrarium, offering a perfect place for reptiles to rest.",
+                            "reviews": [
+                                {
+                                    "name": "Mia G.",
+                                    "stars": 5,
+                                    "date": "2024-05-20",
+                                    "title": "Ideal for my snake",
+                                    "review": "My snake loves hiding in this log. It’s a perfect size, and the material is really sturdy."
+                                }
+                            ]
+                        },
+                        {
+                            "imageUrl": ["https://static.wixstatic.com/media/84770f_280c523e93234b9bae4610eaf6761149~mv2.jpg/v1/fill/w_321,h_321,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_280c523e93234b9bae4610eaf6761149~mv2.jpg"],
+                            "price": 11.99,
+                            "productName": "Fake Plant Decoration",
+                            "productId": "RD009",
+                            "productDescription": "A lush, fake plant decoration that adds greenery to your reptile’s habitat while offering hiding spots.",
+                            "productInfo": "This plant mimics the look of real foliage, providing your reptile with a naturalistic environment for hiding and climbing.",
+                            "reviews": [
+                                {
+                                    "name": "Benjamin F.",
+                                    "stars": 5,
+                                    "date": "2024-05-12",
+                                    "title": "Great addition to my tank",
+                                    "review": "This fake plant looks incredibly realistic and provides excellent cover for my lizard. It adds a natural touch to the tank."
+                                }
+                            ]
                         }
                     ]
                 }
