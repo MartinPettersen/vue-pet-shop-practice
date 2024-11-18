@@ -1,8 +1,9 @@
 <script lang="ts" setup>
 import OrangeShoppingButton from '../(utils)/OrangeShoppingButton.vue'
 import ProductStars from './ProductStars.vue'
+import type { Product } from '@/types';
 
-import { ref, defineProps } from 'vue'
+import { ref, defineProps, type PropType } from 'vue'
 
 defineProps({
   imageUrl: String,
@@ -12,6 +13,7 @@ defineProps({
   productId: String,
   type: String,
   item: String,
+  product: Object as PropType<Product>,
 })
 
 
@@ -30,7 +32,7 @@ const addOne = () => {
     <RouterLink   :to="{ path: '/products/details', query: { type: type, item: item, id: productId} }"
     class=" w-[200px] h-[200px] overflow-hidden relative"> 
       <div class="group-hover:bg-slate-300 flex items-end hover:bg-opacity-20 w-[200px] h-[200px]">
-      <img class="h-[200px] w-[200px]" :src="imageUrl">
+      <img class="h-[200px] w-[200px]" :src="product.imageUrl[0]">
 
         <div
           class="bg-white bg-opacity-30 h-10 w-full flex items-center justify-center absolute bottom-0 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out"
@@ -39,8 +41,8 @@ const addOne = () => {
         </div>
       </div>
     </RouterLink>
-    <p class="border-b-2">{{ productName }}</p>
-    <p>${{ price?.toString() }}</p>
+    <p class="border-b-2">{{ product.productName }}</p>
+    <p>${{ product.price?.toString() }}</p>
     <ProductStars :score="4.6" :reviewAmount="7"/>
     <div class="w-full border-2 flex justify-between items-center">
       <button class="px-2 text-xl" :disabled="amount < 2" @click="subtracktOne">-</button>

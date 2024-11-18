@@ -14,7 +14,7 @@ import SideBar from './SideBar.vue'
       <RouterLink class="hover:text-[#06808B]" to="/">SHOP ALL</RouterLink>
       <RouterLink
   class="hover:text-[#06808B]"
-  :to="{ path: '/products', query: { type: 'dogs', item: 'toy' } }"
+  :to="{ path: '/products', query: { type: 'dogs', item: 'dog food' } }"
 >
   DOGS
 </RouterLink>
