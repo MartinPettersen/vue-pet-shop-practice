@@ -5,7 +5,7 @@ import type { Product } from '@/types';
 
 import { ref, defineProps, type PropType } from 'vue'
 
-defineProps({
+const props = defineProps({
   imageUrl: String,
   score: Number,
   price: Number,
@@ -18,6 +18,7 @@ defineProps({
 
 
 const amount = ref(1)
+const averageStars = props.product.reviews.reduce((sum, review) => sum + review.stars, 0) / props.product.reviews.length;
 
 const subtracktOne = () => {
   amount.value = amount.value - 1
@@ -43,7 +44,7 @@ const addOne = () => {
     </RouterLink>
     <p class="border-b-2">{{ product.productName }}</p>
     <p>${{ product.price?.toString() }}</p>
-    <ProductStars :score="4.6" :reviewAmount="7"/>
+    <ProductStars :score="averageStars" :reviewAmount="product?.reviews.length"/>
     <div class="w-full border-2 flex justify-between items-center">
       <button class="px-2 text-xl" :disabled="amount < 2" @click="subtracktOne">-</button>
       <p>{{ amount }}</p>
