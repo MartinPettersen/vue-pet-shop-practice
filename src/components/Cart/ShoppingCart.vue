@@ -1,16 +1,26 @@
 <script lang="ts" setup>
+import { useBasketStore } from '@/stores/basket' // Adjust the path as needed
 
-import { useBasketStore } from '@/stores/basket'; // Adjust the path as needed
+const basketStore = useBasketStore()
 
-const basketStore = useBasketStore();
+const addOneToBasket = (id: string) => {
+  basketStore.addToBasket(id, 1)
+}
 
+const removeOneFromBasket = (id: string) => {
+  basketStore.removeOneFromBasket(id)
+}
 
+const removeItemFromBasket = (id: string) => {
+  basketStore.removeFromBasket(id)
+}
 </script>
 
 <template>
-
-  <div class="bg-white h-screen w-[400px] z-100 border-2  flex items-center flex-col border-black absolute top-0 right-0">
-    <div class="flex justify-between p-4 items-center w-[90%] border-b-2 ">
+  <div
+    class="bg-white h-screen w-[400px] z-100 border-2 flex items-center flex-col border-black absolute top-0 right-0"
+  >
+    <div class="flex justify-between p-4 items-center w-[90%] border-b-2">
       <div class="flex space-x-1 items-center justify-center">
         <h2 class="font-bold text-lg">Cart</h2>
         <p>({{ basketStore.basket.length }} items)</p>
@@ -22,8 +32,13 @@ const basketStore = useBasketStore();
       <p v-if="basketStore.basket.length === 0">Your Cart is Empty</p>
       <div v-if="basketStore.basket.length > 0">
         <div v-for="item in basketStore.basket" :key="item.id">
-          <div >
-            <p class="bg-pink-200">{{ item.id }} {{ item.amount }}</p>
+          <div>
+            <p class="bg-pink-200">{{ item.id }}</p>
+            <div class="border-2 mx-2 border-black flex items-center justify-center w-14">
+              <p class="px-2" @click="removeOneFromBasket(item.id)">-</p>
+              {{ item.amount }}
+              <p class="px-2" @click="addOneToBasket(item.id)">+</p>
+            </div>
           </div>
         </div>
       </div>
