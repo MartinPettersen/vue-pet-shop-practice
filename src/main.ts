@@ -21,6 +21,7 @@ import { faCircle } from '@fortawesome/free-solid-svg-icons';
 import { faStar, faStarHalf } from '@fortawesome/free-solid-svg-icons';
 import { faThumbsUp } from '@fortawesome/free-regular-svg-icons';
 import { faMessage } from '@fortawesome/free-regular-svg-icons';
+import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -29,6 +30,7 @@ import App from './App.vue'
 import router from './router'
 
 library.add(faWhatsapp);
+library.add(faTrashCan);
 library.add(faMessage);
 library.add(faThumbsUp);
 library.add(faTwitter);

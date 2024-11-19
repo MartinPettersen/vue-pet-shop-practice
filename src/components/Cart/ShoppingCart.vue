@@ -28,17 +28,18 @@ const removeItemFromBasket = (id: string) => {
       <font-awesome-icon :icon="['fas', 'xmark']" class="w-7 h-7 font-extralight" />
     </div>
 
-    <div>
+    <div class=" w-full h-full flex flex-col items-center justify-center p-2">
       <p v-if="basketStore.basket.length === 0">Your Cart is Empty</p>
-      <div v-if="basketStore.basket.length > 0">
-        <div v-for="item in basketStore.basket" :key="item.id">
-          <div>
+      <div class="h-full" v-if="basketStore.basket.length > 0" >
+        <div v-for="item in basketStore.basket"  :key="item.id">
+          <div class="flex justify-between w-full ">
             <p class="bg-pink-200">{{ item.id }}</p>
             <div class="border-2 mx-2 border-black flex items-center justify-center w-14">
               <p class="px-2" @click="removeOneFromBasket(item.id)">-</p>
               {{ item.amount }}
               <p class="px-2" @click="addOneToBasket(item.id)">+</p>
             </div>
+            <font-awesome-icon :icon="['fas', 'trash-can']" @click="removeItemFromBasket(item.id)"/>
           </div>
         </div>
       </div>
