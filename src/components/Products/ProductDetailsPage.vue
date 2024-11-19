@@ -6,8 +6,11 @@ import ProductReviews from './(details)/ProductReviews.vue';
 import ProductRecommandations from './(details)/ProductRecommandations.vue';
 import type { Product } from '@/types';
 import { useRoute } from 'vue-router';
+import { useBasketStore } from '@/stores/basket';
 
-defineProps({
+const basketStore = useBasketStore();
+
+const props = defineProps({
   type: String,
   item: String,
   id: String,
@@ -25,6 +28,11 @@ const subtracktOne = () => {
 const addOne = () => {
   amount.value = amount.value + 1
 }
+
+const addToBasket = () => {
+  basketStore.addToBasket(product.productId !, amount.value)
+}
+
 </script>
 
 <template>
@@ -64,7 +72,7 @@ const addOne = () => {
           </div>
         </div>
         <div class="w-[100%] space-y-2">
-          <button class="bg-[#FF5F42] hover:bg-[#f16a52] mt-0 mb-0 w-[80%] py-2 text-black">
+          <button @click="addToBasket" class="bg-[#FF5F42] hover:bg-[#f16a52] mt-0 mb-0 w-[80%] py-2 text-black">
             Add to Cart
           </button>
           <button class="bg-[#000000] hover:bg-[#262525] mt-0 mb-0 w-[80%] py-2 text-white">

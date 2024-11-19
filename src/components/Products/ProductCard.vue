@@ -2,8 +2,11 @@
 import OrangeShoppingButton from '../(utils)/OrangeShoppingButton.vue'
 import ProductStars from './ProductStars.vue'
 import type { Product } from '@/types';
-
+import { useBasketStore } from '@/stores/basket';
 import { ref, defineProps, type PropType } from 'vue'
+
+
+const basketStore = useBasketStore();
 
 const props = defineProps({
   imageUrl: String,
@@ -26,6 +29,13 @@ const subtracktOne = () => {
 const addOne = () => {
   amount.value = amount.value + 1
 }
+
+
+const addToBasket = () => {
+
+  basketStore.addToBasket(props.product.productId!, amount.value)
+}
+
 </script>
 
 <template>
@@ -50,6 +60,6 @@ const addOne = () => {
       <p>{{ amount }}</p>
       <button class="px-2 text-xl" @click="addOne">+</button>
     </div>
-    <OrangeShoppingButton label="add to cart" />
+    <OrangeShoppingButton @click="addToBasket" label="add to cart" />
   </div>
 </template>

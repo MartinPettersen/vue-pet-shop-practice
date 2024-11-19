@@ -19,7 +19,14 @@ const basketStore = useBasketStore();
     </div>
 
     <div>
-      <p>Your Cart is Empty</p>
+      <p v-if="basketStore.basket.length === 0">Your Cart is Empty</p>
+      <div v-if="basketStore.basket.length > 0">
+        <div v-for="item in basketStore.basket" :key="item.id">
+          <div >
+            <p class="bg-pink-200">{{ item.id }} {{ item.amount }}</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
