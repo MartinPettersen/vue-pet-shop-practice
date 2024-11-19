@@ -6,6 +6,16 @@ import { UserCircleIcon } from '@heroicons/vue/24/solid'
 import { ShoppingCartIcon } from '@heroicons/vue/24/outline'
 import SideBar from './SideBar.vue'
 import ShoppingCart from '../Cart/ShoppingCart.vue'
+import { ref } from 'vue'
+import { useBasketStore } from '@/stores/basket'
+
+const basketStore = useBasketStore()
+
+const showShoppingCart = ref(false)
+
+const toggleShoppingCart = () => {
+  showShoppingCart.value = !showShoppingCart.value
+}
 
 </script>
 <template>
@@ -54,13 +64,13 @@ import ShoppingCart from '../Cart/ShoppingCart.vue'
       </RouterLink>
       <RouterLink to="/dogs">Log In</RouterLink>
       <div class="flex">
-        <ShoppingCartIcon class="size-5" />
+        <ShoppingCartIcon class="size-5 hover:cursor-pointer" @click="toggleShoppingCart"/>
         <p
         class="bg-[#FF5F42] rounded-full flex items-center justify-center h-[20px] w-[20px] pb-[2px]"
         >
-        0
+        {{ basketStore.basket.length }}
       </p>
-      <ShoppingCart />
+      <ShoppingCart v-if="showShoppingCart" @toggleShoppingCart="toggleShoppingCart"/>
     </div>
     </div>
   </div>

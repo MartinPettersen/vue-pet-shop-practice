@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { useBasketStore } from '@/stores/basket'
 import CartCard from './CartCard.vue'
-import { computed, ref } from 'vue'
+import { computed, ref, defineEmits } from 'vue'
 import productsData from '@/assets/products.json';
 import type { Product } from '@/types';
 
@@ -9,6 +9,8 @@ const basketStore = useBasketStore()
 const totalAmount = ref(0)
 
 const itemTotals = ref<Record<string, number>>({});
+
+const emit = defineEmits(['toggleShoppingCart'])
 
 
 const updateItemTotal = ({ id, total }: { id: string; total: number }) => {
@@ -56,7 +58,7 @@ function findProductById(productId: string) {
         <h2 class="font-bold text-lg">Cart</h2>
         <p>({{ basketStore.basket.length }} items)</p>
       </div>
-      <font-awesome-icon :icon="['fas', 'xmark']" class="w-7 h-7 font-extralight" />
+      <font-awesome-icon @click="emit('toggleShoppingCart')" :icon="['fas', 'xmark']" class="w-7 h-7 hover:cursor-pointer font-extralight" />
     </div>
 
     <div class="w-full h-full flex flex-col items-center justify-center p-2">
