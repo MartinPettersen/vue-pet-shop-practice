@@ -107,7 +107,7 @@ onBeforeRouteUpdate((to, from, next) => {
           </div>
         </div>
       </div>
-      <div class="grid grid-cols-3 gap-10 pt-10">
+      <div class="grid w-[94%] grid-cols-4 gap-10 pt-10">
         <div v-for="(product, index) in products" :key="index">
           <ProductCard :product="product" :type="type" :item="item" />
         </div>
